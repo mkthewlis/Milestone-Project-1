@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/*-------------------------------------------------------- Colors*/
+.navbar {
+     background-color: #DCE3ED;
+ }
+
+/*-------------------------------------------------------- Fonts*/
+
+.navbar {
+    position: fixed;
+    margin: 0 auto;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    font-family: "Bebas Neue", cursive;
+}
+
+.logo span {
+    font-style: italic;
+}
+
+
+
