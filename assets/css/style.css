@@ -49,4 +49,12 @@
     right: 0;
 }
 
+/*-------------------------------------------------------- Navbar*/
 
+.homepage-hero {
+    background: url("../images/photo-of-a-man-using-laptop-3771790.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 775px;
+}
