@@ -12,6 +12,7 @@
     font-family: "Bebas Neue", cursive;
     color: #433E3A;
     letter-spacing: 1px;
+    padding-right: 0;
 }
 
 .menu-item {
@@ -19,7 +20,7 @@
     color: #433E3A;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 33px;
 }
 
@@ -39,24 +40,22 @@
     color: #433E3A;
 }
 
+
 .navbar .navbar-toggler {
     border: 0;
-    padding-left: 0;
+    padding: 0;
 }
 
-
-.navbar-nav {
-    position: absolute;
-    right: 0;
-}
 
 .navbar-light .navbar-nav .active>.nav-link {
     color: #433E3A;
 }
 
+.menu-item-margin {
+    margin: 0px 0px 0px 0px;
+}
 
-
-/*-------------------------------------------------------- Navbar*/
+/*-------------------------------------------------------- Hero image section*/
 
 .homepage-hero {
     background: url("../images/photo-of-a-man-using-laptop-3771790.jpg");
