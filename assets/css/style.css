@@ -5,6 +5,10 @@
      background-color: #DCE3ED;
  }
 
+ .core-features-bg {
+     background-color: rgba(255, 255, 255, 0.28);
+ }
+
 /*-------------------------------------------------------- Font & font styles*/
 
 .menu-bar .logo-style {
@@ -31,26 +35,53 @@
     color: #433E3A;
 }
 
-.header-section {
+.statement-section, .features-title {
     font-family: "Open Sans", sans-serif;
     color: #433E3A;
 }
 
-.header-section h1 {
+.statement-section h1 {
     font-weight: 600;
     font-size: 38px;
 }
 
-.header-section p {
+.statement-section p {
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
     padding-top: 20px;
 }
 
-.header-section .schedule-btn {
+.statement-section .schedule-btn {
     font-family: "Nato Sans Kr", sans-serif;
     color: #433E3A;
+}
+
+.features-section .features-title {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.three-features {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: #433E3A;
+}
+
+/*-------------------------------------------------------- Dividers & icons*/
+
+.standard-divider {
+    width: 557px;
+    height: 0px;
+    margin: 0 auto;
+    border: 3px solid rgba(67, 62, 58, 0.75);
+}
+
+.feature-icons {
+    color: #433E3A;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 
 /*-------------------------------------------------------- Navbar*/
@@ -83,7 +114,7 @@
     min-height: 775px; 
 }
 
-.header-section {
+.statement-section {
     position: relative;
     align-items: center;
     justify-content: center;
@@ -92,44 +123,46 @@
     margin-left: 100px;
 }
 
-@media screen and (max-width: 540px) {
-    .hero-image {
-        width: 100%;
-        margin: 0 auto;
-        background-position-x: 75%;
-    }
+@media screen and (max-width: 720px) {
+     .hero-image {
+    width: 100%;
+     }
 
-    .header-section {
+     .statement-section {
     position: relative;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;
-    margin-top: 80px; 
+    padding-top: 90px;
+    margin-top: 120px; 
+    margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .hero-image {
+    width: 100%;
+    margin: 0 auto;
+    background-position-x: 75%;
+    }
+
+    .statement-section {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 20px; 
     margin-left: 10px;
     }
 
     #btn-sm-screen {
-    margin-left: 0;
+    margin-left: 0px;
+    margin-top: 20px;
     background-color: #DCE3ED;
     border-color: #DCE3ED;
     border-radius: 30px;
+    }
 }
-}
-
-
-
-/*
-      -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
-} */
 
 .schedule-btn {
     background-color: #DCE3ED;
@@ -137,3 +170,69 @@
     border-radius: 30px;
     margin-left: 120px;
 }
+
+/*-------------------------------------------------------- Core features section*/
+
+.features-section {
+    position: absolute;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.features-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+    .features-section .standard-divider {
+            position: relative;
+            margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .features-section  {
+        padding-top: 25px;
+        margin-bottom: 50px;
+    }
+    .features-section .features-title {
+        font-weight: 600; 
+        margin-top: 20px;
+    }
+
+    .features-section hr {
+        display: none
+    }
+
+    .features-structure {
+        margin-top: 80px;
+    }
+
+    .features-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+}
+
+    .divider-position {
+        position: relative;
+        margin-top: 80px;
+        }
+
+    .features-structure {
+        padding-top: 25px;
+    }
+
+    .three-features {
+        position: relative;
+        margin-top: 80px;
+        text-align: center;
+    }
