@@ -56,7 +56,6 @@
 /*-------------------------------------------------------- Navbar*/
 
 .menu-bar {
-    position: fixed;
     width: 100%;
     color: #433E3A;
 }
@@ -75,47 +74,66 @@
 
 /*-------------------------------------------------------- Hero image section*/
 
-.homepage-hero {
+.hero-image {
     background: url("../images/photo-of-a-man-using-laptop-3771790.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 775px;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    /*
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    */
-    position: relative;
+    width: 100%;
+    min-height: 775px; 
 }
 
 .header-section {
     position: relative;
+    align-items: center;
+    justify-content: center;
     padding-top: 90px;
     margin-top: 120px;
     margin-left: 100px;
 }
+
+@media screen and (max-width: 540px) {
+    .hero-image {
+        width: 100%;
+        margin: 0 auto;
+        background-position-x: 75%;
+    }
+
+    .header-section {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    margin-top: 80px; 
+    margin-left: 10px;
+    }
+
+    #btn-sm-screen {
+    margin-left: 0;
+    background-color: #DCE3ED;
+    border-color: #DCE3ED;
+    border-radius: 30px;
+}
+}
+
+
+
+/*
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+} */
 
 .schedule-btn {
     background-color: #DCE3ED;
     border-color: #DCE3ED;
     border-radius: 30px;
     margin-left: 120px;
-}
-
-@media (max-width: 500px) {
-  nav.navbar .navbar-collapse {
-    border: 0;
-    margin-bottom: 30px;
-    padding-bottom: 50px;
-  }
 }
