@@ -5,7 +5,11 @@
      background-color: #DCE3ED;
  }
 
-/*-------------------------------------------------------- Fonts & styles*/
+ .jumbotron {
+     background-color: transparent;
+ }
+
+/*-------------------------------------------------------- Font & font styles*/
 
 .navbar .navbar-brand {
     font-size: 40px;
@@ -18,7 +22,6 @@
 .menu-item {
     font-family: "Open Sans", sans-serif;
     color: #433E3A;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 33px;
@@ -31,11 +34,32 @@
     color: #433E3A;
 }
 
+.jumbotron {
+    font-family: "Open Sans", sans-serif;
+    color: #433E3A;
+}
+
+.jumbotron h1 {
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.jumbotron p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    padding-top: 20px;
+}
+
+.jumbotron .schedule-btn {
+    font-family: "Nato Sans Kr", sans-serif;
+    color: #433E3A;
+}
+
 /*-------------------------------------------------------- Navbar*/
 
 .navbar {
     position: fixed;
-    margin-bottom: 0;
     width: 100%;
     color: #433E3A;
 }
@@ -63,4 +87,27 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 775px;
+}
+
+.jumbotron
+{
+    position: relative;
+    padding-top: 90px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+
+.schedule-btn {
+    background-color: #DCE3ED;
+    border-color: #DCE3ED;
+    border-radius: 30px;
+}
+
+@media (max-width: 500px) {
+  nav.navbar .navbar-collapse {
+    border: 0;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+  }
 }
