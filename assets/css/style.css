@@ -5,9 +5,10 @@
      background-color: #DCE3ED;
  }
 
-/*-------------------------------------------------------- Fonts*/
+/*-------------------------------------------------------- Fonts & styles*/
 
-.nav-logo {
+.navbar .navbar-brand {
+    font-size: 40px;
     font-family: "Bebas Neue", cursive;
     color: #433E3A;
     letter-spacing: 1px;
@@ -22,32 +23,38 @@
     line-height: 33px;
 }
 
-#logo {
-     font-size: 40px;
-}
-
-
 .nav-logo span {
     font-style: italic;
     letter-spacing: 0px;
     font-size: 30px;
+    color: #433E3A;
 }
 
 /*-------------------------------------------------------- Navbar*/
 
 .navbar {
     position: fixed;
-    margin: 0 auto;
-    right: 0;
-    top: 0;
+    margin-bottom: 0;
     width: 100%;
     color: #433E3A;
 }
+
+.navbar .navbar-toggler {
+    border: 0;
+    padding-left: 0;
+}
+
 
 .navbar-nav {
     position: absolute;
     right: 0;
 }
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #433E3A;
+}
+
+
 
 /*-------------------------------------------------------- Navbar*/
 
