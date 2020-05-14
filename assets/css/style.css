@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 /*-------------------------------------------------------- Background colors*/
-.navbar {
+.menu-bar {
      background-color: #DCE3ED;
- }
-
- .jumbotron {
-     background-color: transparent;
  }
 
 /*-------------------------------------------------------- Font & font styles*/
 
-.navbar .navbar-brand {
+.menu-bar .logo-style {
     font-size: 40px;
     font-family: "Bebas Neue", cursive;
     color: #433E3A;
     letter-spacing: 1px;
     padding-right: 0;
+    margin-right: 0;
 }
 
 .menu-item {
@@ -27,49 +24,46 @@
     line-height: 33px;
 }
 
-.nav-logo span {
+.logo-style span {
     font-style: italic;
     letter-spacing: 0px;
     font-size: 30px;
     color: #433E3A;
 }
 
-.jumbotron {
+.header-section {
     font-family: "Open Sans", sans-serif;
     color: #433E3A;
 }
 
-.jumbotron h1 {
+.header-section h1 {
     font-weight: 600;
     font-size: 38px;
 }
 
-.jumbotron p {
+.header-section p {
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
     padding-top: 20px;
 }
 
-.jumbotron .schedule-btn {
+.header-section .schedule-btn {
     font-family: "Nato Sans Kr", sans-serif;
     color: #433E3A;
 }
 
 /*-------------------------------------------------------- Navbar*/
 
-.navbar {
+.menu-bar {
     position: fixed;
     width: 100%;
     color: #433E3A;
 }
 
-
-.navbar .navbar-toggler {
+.menu-burger-icon {
     border: 0;
-    padding: 0;
 }
-
 
 .navbar-light .navbar-nav .active>.nav-link {
     color: #433E3A;
@@ -87,21 +81,35 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 775px;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+    position: relative;
 }
 
-.jumbotron
-{
+.header-section {
     position: relative;
     padding-top: 90px;
     margin-top: 120px;
     margin-left: 100px;
 }
 
-
 .schedule-btn {
     background-color: #DCE3ED;
     border-color: #DCE3ED;
     border-radius: 30px;
+    margin-left: 120px;
 }
 
 @media (max-width: 500px) {
