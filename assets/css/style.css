@@ -208,6 +208,7 @@
         margin-top: 20px;
     }
 
+
     .features-section hr {
         display: none
     }
@@ -235,17 +236,19 @@
         padding-top: 25px;
     }
 
+
     .three-features {
         position: relative;
         margin-top: 80px;
         text-align: center;
     }
 
-/*-------------------------------------------------------- Core features section*/
+/*-------------------------------------------------------- Footer*/
+
+
 
     .footer-container {
-        position: relative;
-        height: 80px;
+        position: absolute;
         bottom: 0px;
         width: 100%;
     }
