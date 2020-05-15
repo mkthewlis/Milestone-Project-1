@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
+
 /*-------------------------------------------------------- Background colors*/
 .menu-bar {
      background-color: #DCE3ED;
@@ -245,10 +246,20 @@
 
 /*-------------------------------------------------------- Footer*/
 
-
+    .wrapper {
+        position: relative;
+    }
+    .media-icons {
+        margin: 0 auto;
+        font-size: 20px;
+        text-align: center;
+        color: #433E3A;
+        transform: translateY(100%);
+    }
 
     .footer-container {
         position: absolute;
         bottom: 0px;
         width: 100%;
+        height: 70px;
     }
