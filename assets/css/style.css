@@ -133,6 +133,54 @@ footer p {
   color: #7a94bd;
 }
 
+
+/*-------------------------------------------------------- Footer*/
+
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background: #dce3ed;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.media-icons {
+  margin: 10px 20px 5px 20px;
+  letter-spacing: 5px;
+  font-size: 23px;
+  text-align: center;
+}
+
+.media-icons i:hover {
+  color: #7a94bd;
+}
+
+/*
+@media screen and (max-width: 720px) {
+    body {
+        height: 80%
+    }
+    #container {
+        position:relative;
+        bottom:0;
+        padding-top: 20px;
+    }
+}
+*/
+
+/*------------------------------------------------------------------------------### Index.html ### */
+
 /*-------------------------------------------------------- Hero image section*/
 
 .hero-image {
@@ -272,47 +320,4 @@ footer p {
   text-align: center;
 }
 
-/*-------------------------------------------------------- Footer*/
-
-#container {
-  min-height: 100%;
-  position: relative;
-}
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
-  background: #dce3ed;
-}
-
-footer p {
-  text-align: center;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.media-icons {
-  margin: 10px 20px 5px 20px;
-  letter-spacing: 5px;
-  font-size: 23px;
-  text-align: center;
-}
-
-.media-icons i:hover {
-  color: #7a94bd;
-}
-
-/*
-@media screen and (max-width: 720px) {
-    body {
-        height: 80%
-    }
-    #container {
-        position:relative;
-        bottom:0;
-        padding-top: 20px;
-    }
-}
-*/
+/*------------------------------------------------------------------------------### Index.html ### */
