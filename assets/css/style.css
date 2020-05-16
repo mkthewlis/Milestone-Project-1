@@ -166,18 +166,6 @@ footer p {
   color: #7a94bd;
 }
 
-/*
-@media screen and (max-width: 720px) {
-    body {
-        height: 80%
-    }
-    #container {
-        position:relative;
-        bottom:0;
-        padding-top: 20px;
-    }
-}
-*/
 
 /*------------------------------------------------------------------------------### Index.html ### */
 
@@ -258,9 +246,9 @@ footer p {
 /*-------------------------------------------------------- Core features section*/
 
 .features-section {
-  position: absolute;
+  position: relative;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 300px;
 }
 
 .features-title {
@@ -280,7 +268,7 @@ footer p {
 @media screen and (max-width: 540px) {
   .features-section {
     padding-top: 25px;
-    margin-bottom: 50px;
+    padding-bottom: 150px;
   }
   .features-section .features-title {
     font-weight: 600;
