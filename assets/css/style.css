@@ -20,6 +20,10 @@ body {
   background-color: #dce3ed;
 }
 
+.founders-section {
+    background-color: rgba(203, 211, 223, 0.28);
+}
+
 /*-------------------------------------------------------- Font & font styles*/
 
 .menu-bar .logo-style {
@@ -91,6 +95,19 @@ footer p {
   color: #433e3a;
 }
 
+.staircase-info p {
+font-family: "Open Sans", sans-serif; 
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+
+.staircase-title {
+    font-family: "Open Sans", sans-serif;
+    color: #433e3a;
+    font-size: 30px;
+}
+
 /*-------------------------------------------------------- Dividers & icons*/
 
 .standard-divider {
@@ -105,6 +122,16 @@ footer p {
   font-size: 50px;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 540px) {
+#staircase-divider-sm {
+    max-width: 300px;
+    border: 2px solid rgba(67, 62, 58, 0.75);
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    }
+}
+
 
 /*-------------------------------------------------------- Navbar*/
 
@@ -123,6 +150,12 @@ footer p {
 
 .menu-item-margin {
   margin: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 540px) {
+  .navbar-nav .nav-link {
+      padding-left: 5px;
+  }
 }
 
 #menu-hover a:hover {
@@ -167,7 +200,7 @@ footer p {
 }
 
 
-/*------------------------------------------------------------------------------### Index.html ### */
+/*------------------------------------------------------------------------------### index.html ### */
 
 /*-------------------------------------------------------- Hero image section*/
 
@@ -308,4 +341,66 @@ footer p {
   text-align: center;
 }
 
-/*------------------------------------------------------------------------------### Index.html ### */
+/*------------------------------------------------------------------------------### about.html ### */
+
+/*-------------------------------------------------------- Staircase section*/
+
+.staircase-title {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 0px; 
+}
+
+.staircase-divider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.staircase-text {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.staircase-photo {
+  background: url("../images/staircase.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 827px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+}
+
+
+@media screen and (max-width: 540px) {
+.staircase-title {
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    }
+
+.staircase-info {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    }
+
+.staircase-photo {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 300px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+  .staircase-md {
+    min-height: 100px;
+  }
+}
+/*-------------------------------------------------------- Founders section*/
+
+
+
