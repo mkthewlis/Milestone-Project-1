@@ -20,7 +20,7 @@ body {
   background-color: #dce3ed;
 }
 
-.founders-section {
+.founders-section-bg {
     background-color: rgba(203, 211, 223, 0.28);
 }
 
@@ -356,9 +356,10 @@ footer p {
     margin-bottom: 50px;
 }
 
-.staircase-text {
-    padding-left: 15px;
-    padding-right: 15px;
+.staircase-info {
+    padding-left: 25px;
+    padding-right: 22px;
+    padding-bottom: 30px;
 }
 
 .staircase-photo {
@@ -367,7 +368,7 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 827px;
+  min-height: 900px;
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -391,13 +392,16 @@ footer p {
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    min-height: 300px;
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
+    .staircase-title {
+    margin-top: 70px;
+    margin-bottom: 70px; 
+    }
   .staircase-md {
-    min-height: 100px;
+    min-height: 400px;
   }
 }
 /*-------------------------------------------------------- Founders section*/

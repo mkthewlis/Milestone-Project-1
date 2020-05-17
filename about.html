@@ -4,96 +4,182 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>The Career Changers</title>
   </head>
+
   <body>
-  <div id="container">
+    <div id="container">
+      <!--Header section: includes navbar with logo within. Navbar template from Bootstrap 4-->
+      <nav class="navbar menu-bar navbar-light navbar-expand-lg">
+        <!-- Logo -->
+        <a class="navbar-brand logo-style" id="logo-hover" href="index.html"
+          ><span>The</span> Career Changers</a
+        >
+        <!--Toggle button-->
+        <button
+          class="navbar-toggler menu-burger-icon"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Collapsible navbar content-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto" id="menu-hover">
+            <li class="nav-item mr-2">
+              <a class="nav-link menu-item" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mr-2 active">
+              <a class="nav-link menu-item" href="about.html"
+                >About Us<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link menu-item" href="services.html"
+                >Our Services</a
+              >
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link menu-item" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-<!--Header section: includes navbar with logo within. Navbar template from Bootstrap 4-->
-    <nav class="navbar menu-bar navbar-light navbar-expand-lg">
-    <!-- Logo -->
-      <a class="navbar-brand logo-style" id="logo-hover" href="index.html"><span>The</span> Career Changers</a>
-    <!--Toggle button-->
-      <button class="navbar-toggler menu-burger-icon" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!--Collapsible navbar content-->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto" id="menu-hover">
-          <li class="nav-item mr-2">
-            <a class="nav-link menu-item" href="index.html">Home</a
-            >
-          </li>
-          <li class="nav-item mr-2 active">
-            <a class="nav-link menu-item" href="about.html">About Us<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link menu-item" href="services.html">Our Services</a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link menu-item" href="contact.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
- 
-
-<!--Staircase section-->
-<section class="container-fluid p-0">
-    <div class="row no-gutters">
-        <div class="col-12 col-lg-6">
+      <!--Staircase section-->
+      <section class="container-fluid p-0">
+        <div class="row no-gutters">
+          <div class="col-12 col-lg-6">
             <div class="staircase-text">
-                <div class="staircase-title">
-                    <h3>Just like you, our agency began by the founders choosing to follow a new career path.</h3>
-                    <hr class="standard-divider staircase-divider" id="staircase-divider-sm">
-                </div>
-                <div class="staircase-info">
-                    <p>In the early spring of 2016, the three founders of The Career Changers 
-                    met for dinner. Each of them explained how unhappy they were with their 
-                    current careers and shared their frustration at not knowing where to turn 
-                    for guidance and inspiration.</p>
-                    <p>By the end of the meal, they had made their decision: together, they 
-                    would use their experience of wanting to change their career paths to create 
-                    a boutique consultancy. The founding aim would be to offer their clients the 
-                    service that they themselves had wanted but were unable to find.</p>
-                    <p>Now with four years of growth and successful client stories behind them, 
-                    they oversee a team of 20 consultants specialising in different fields and 
-                    markets. And although their expertise differs, they all share the passion to 
-                    see others grow and flourish.</p>
-                    <p>Andy, Malin and Sid look forward to many more years of growth, learning and 
-                    satisfied Career Changers.</p>
-                </div>
+              <div class="staircase-title">
+                <h3>
+                  Just like you, our agency began by the founders choosing to
+                  follow a new career path.
+                </h3>
+                <hr
+                  class="standard-divider staircase-divider"
+                  id="staircase-divider-sm"
+                />
+              </div>
+              <div class="staircase-info">
+                <p>
+                  In the early spring of 2016, the three founders of The Career
+                  Changers met for dinner. Each of them explained how unhappy
+                  they were with their current careers and shared their
+                  frustration at not knowing where to turn for guidance and
+                  inspiration.
+                </p>
+                <p>
+                  By the end of the meal, they had made their decision:
+                  together, they would use their experience of wanting to change
+                  their career paths to create a boutique consultancy. The
+                  founding aim would be to offer their clients the service that
+                  they themselves had wanted but were unable to find.
+                </p>
+                <p>
+                  Now with four years of growth and successful client stories
+                  behind them, they oversee a team of 20 consultants
+                  specialising in different fields and markets. And although
+                  their expertise differs, they all share the passion to see
+                  others grow and flourish.
+                </p>
+                <p>
+                  Andy, Malin and Sid look forward to many more years of growth,
+                  learning and satisfied Career Changers.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="col-12 col-lg-6 staircase-photo staircase-md">
+          </div>
         </div>
-        <div class="col-12 col-lg-6 staircase-photo staircase-md">
+      </section>
+
+      <!--Founders section-->
+      <section class="container-fluid founders-section-bg">
+        <div class="founders-section-bg">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="founders-title">
+                Meet the founders of The Career Changers.
+              </h2>
+              <hr class="standard-divider divider-position" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <div class="founders-photos">
+              </div>
+              <p>Andy</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="founders-photos">
+              <div class="founders-photos">
+              </div>
+              <p>Malin</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="three-features">
+              <div class="founders-photos">
+              </div>
+              <p>Sid</p>
+            </div>
+          </div>
         </div>
-        <div class="founders-section">
-            <div class="founders-title"></div>
-        </div>
-    </div>
+      </section>
 
-</section>
-
-
-<!-- Footer set within a container to keep it at the bottom of the page -->
-   <footer id="footer">
+      <!-- Footer set within a container to keep it at the bottom of the page -->
+      <footer id="footer">
         <div class="media-icons">
-            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
         </div>
         <div>
-        <p> Copyright© 2020 The Career Changers</p>
+          <p>Copyright© 2020 The Career Changers</p>
         </div>
-   </footer>
-</div>
+      </footer>
+    </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
