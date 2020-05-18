@@ -4,59 +4,175 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>The Career Changers</title>
   </head>
   <body>
-  <div id="container">
+    <div id="container">
+      <!--Header section: includes navbar with logo within. Navbar template from Bootstrap 4-->
+      <nav class="navbar menu-bar navbar-light navbar-expand-lg">
+        <!-- Logo -->
+        <a class="navbar-brand logo-style" id="logo-hover" href="index.html"
+          ><span>The</span> Career Changers</a
+        >
+        <!--Toggle button-->
+        <button
+          class="navbar-toggler menu-burger-icon"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Collapsible navbar content-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto" id="menu-hover">
+            <li class="nav-item mr-2">
+              <a class="nav-link menu-item" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link menu-item" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item mr-2 active">
+              <a class="nav-link menu-item" href="services.html"
+                >Our Services<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link menu-item" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-<!--Header section: includes navbar with logo within. Navbar template from Bootstrap 4-->
-    <nav class="navbar menu-bar navbar-light navbar-expand-lg">
-    <!-- Logo -->
-      <a class="navbar-brand logo-style" id="logo-hover" href="index.html"><span>The</span> Career Changers</a>
-    <!--Toggle button-->
-      <button class="navbar-toggler menu-burger-icon" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!--Collapsible navbar content-->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto" id="menu-hover">
-          <li class="nav-item mr-2">
-            <a class="nav-link menu-item" href="index.html">Home</a
-            >
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link menu-item" href="about.html">About Us</a>
-          </li>
-          <li class="nav-item mr-2 active">
-            <a class="nav-link menu-item" href="services.html">Our Services<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link menu-item" href="contact.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
- 
-    
-<!-- Footer set within a container to keep it at the bottom of the page -->
-   <footer id="footer">
+      <!--Services title section-->
+      <section class="container-fluid services-section">
+        <div class="row">
+          <div class="col-12 col-lg-6 services-photo"></div>
+          <div class="col-12 col-lg-6 services-title services-title-bg">
+            <h2>
+              We believe that making the decision to change your career is the
+              difficult part.
+            </h2>
+            <hr
+              class="standard-divider services-divider"
+              id="staircase-divider-sm"
+            />
+            <h3>After that, it should be a smooth and simple process.</h3>
+          </div>
+        </div>
+      </section>
+
+      <!--Services features section-->
+      <section class="container-fluid services-features-bg">
+        <div class="row features-structure three-features-details">
+          <div class="col-12 col-md-4">
+            <div class="three-features">
+              <i class="fas fa-users feature-icons"></i>
+              <h3>Experience</h3>
+              <p>
+                After the first strategy call, you will be matched with one of
+                our 20 consultants. They will use their experience and knowledge
+                of your chosen field to coach you in the right direction.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="three-features">
+              <i class="fas fa-user-cog feature-icons"></i>
+              <h3>Customisation</h3>
+              <p>
+                Our program is fully customisable to match your specific needs
+                and requirements. We take pride in working closely with you to
+                ensure that the timelines, skills and aims set are based on your
+                aspirations.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="three-features">
+              <i class="fas fa-phone feature-icons"></i>
+              <h3>Support</h3>
+              <p>
+                We believe that support is essential to successfully meeting
+                your career goals. With us, you’ll benefit from several channels
+                of support, including your career coach and the network of other
+                Career Changers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Package section-->
+<section>
+    <div class="container-fluid package-section-bg">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <h3>Our standard package includes:</h3>
+                <ul>
+                <li>Initial planning session and introduction</li>
+                <li>Ten 1-to-1 meetings with your coach</li>
+                <li>CV and Cover Letter coaching</li>
+                <li>Interview practice</li>
+                <li>Access to a vibrant community of other Career Changers</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-6 package-photo">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+      <!-- Footer set within a container to keep it at the bottom of the page -->
+      <footer id="footer">
         <div class="media-icons">
-            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
         </div>
         <div>
-        <p> Copyright© 2020 The Career Changers</p>
+          <p>Copyright© 2020 The Career Changers</p>
         </div>
-   </footer>
-</div>
+      </footer>
+    </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

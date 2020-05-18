@@ -12,14 +12,14 @@ body {
   background-color: #dce3ed;
 }
 
-.core-features-bg {
-  background-color: rgba(255, 255, 255, 0.28);
-}
-
 .footer-bg {
   background-color: #dce3ed;
 }
 
+.package-section-bg,
+.core-features-bg,
+.founders-section-bg,
+.services-features-bg,
 .staircase-title-bg {
   background-color: rgba(203, 211, 223, 0.28);
 }
@@ -28,8 +28,8 @@ body {
   background-color: rgba(255, 255, 255);
 }
 
-.founders-section-bg {
-  background-color: rgba(203, 211, 223, 0.28);
+.services-title-bg {
+      background-color: rgba(255, 255, 255);
 }
 
 /*-------------------------------------------------------- Font & font styles*/
@@ -112,14 +112,16 @@ footer p {
   color: #433e3a;
 }
 
-.staircase-info p {
+.staircase-info p,
+.three-features p {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
 }
 
-.staircase-title h2 {
+.staircase-title h2,
+.services-title h2 {
   font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -127,7 +129,8 @@ footer p {
   font-size: 35px;
 }
 
-.staircase-title h3 {
+.staircase-title h3,
+.services-title h3 {
   font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -144,7 +147,8 @@ footer p {
   color: #433e3a;
 }
 
-.founder-names {
+.founder-names, 
+.three-features h3 {
 font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -597,3 +601,57 @@ background-size: 250px;
     -moz-transition:  .55s ease-in-out;
     -webkit-transition: .55s ease-in-out;
 }​
+
+/*------------------------------------------------------------------------------### services.html ### */
+
+/*-------------------------------------------------------- Services title section*/
+
+.services-photo {
+  background: url("../images/blazer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
+
+.services-title {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.services-title h2 {
+    padding-bottom: 30px;
+}
+
+.services-title h3 {
+    padding-top: 30px;
+}
+
+.standard-divider .services-divider {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*-------------------------------------------------------- Services features section*/
+
+.three-features-details {
+     padding-top: 0px;
+  padding-bottom: 150px;
+}
+
+/*-------------------------------------------------------- Package section*/
+
+.package-photo {
+     background: url("../images/desk_tablet.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 543px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+}
