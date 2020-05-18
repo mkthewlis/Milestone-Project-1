@@ -119,10 +119,18 @@ footer p {
   font-size: 20px;
 }
 
-.staircase-title {
+.staircase-title h2 {
   font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
+  color: #433e3a;
+  font-size: 35px;
+}
+
+.staircase-title h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-weight: 300;
   color: #433e3a;
   font-size: 30px;
 }
@@ -131,7 +139,7 @@ footer p {
   font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 35px;
   color: #433e3a;
 }
@@ -141,6 +149,14 @@ font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
+  color: #433e3a;
+}
+
+.founder-details {
+font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
   color: #433e3a;
 }
 
@@ -159,14 +175,39 @@ font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
 }
 
+/* Media query to make design responsive on smaller screens */
+
 @media screen and (max-width: 540px) {
   #staircase-divider-sm {
     max-width: 300px;
     border: 2px solid rgba(67, 62, 58, 0.75);
     margin-top: 30px;
     margin-bottom: 30px;
-  }
+    }
+
+  #founders-divider-sm {
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid rgba(67, 62, 58, 0.75);
+    }
+
+#boutique-divider-sm {
+    display: none;
+    }
 }
+
+/* End of media query section*/
+
+#staircase-divider-sm {
+      margin: 0 auto;
+    border: 1px solid rgba(67, 62, 58, 0.75);
+}
+
+#founders-divider-sm {
+      margin: 0 auto;
+    border: 1px solid rgba(67, 62, 58, 0.75);
+}
+
 
 /*-------------------------------------------------------- Navbar*/
 
@@ -187,11 +228,15 @@ font-family: "Open Sans", sans-serif;
   margin: 0px 0px 0px 0px;
 }
 
+/* Media query to make design responsive on smaller screens */
+
 @media screen and (max-width: 540px) {
   .navbar-nav .nav-link {
     padding-left: 5px;
   }
 }
+
+/* End of media query section*/
 
 #menu-hover a:hover {
   color: #7a94bd;
@@ -255,6 +300,8 @@ footer p {
   margin-left: 100px;
 }
 
+/* Media query to make design responsive on smaller screens */
+
 @media screen and (max-width: 720px) {
   .hero-image {
     width: 100%;
@@ -295,6 +342,8 @@ footer p {
   }
 }
 
+/* End of media query section*/
+
 .schedule-btn {
   background-color: #dce3ed;
   border-color: #dce3ed;
@@ -324,6 +373,8 @@ footer p {
   text-align: center;
 }
 
+/* Media query to make design responsive on smaller screens */
+
 @media screen and (max-width: 720px) {
   .features-section .standard-divider {
     position: relative;
@@ -341,10 +392,6 @@ footer p {
     margin-top: 20px;
   }
 
-  .features-section hr {
-    display: none;
-  }
-
   .features-structure {
     margin-top: 80px;
   }
@@ -358,6 +405,8 @@ footer p {
     margin-right: 20px;
   }
 }
+
+/* End of media query section*/
 
 .divider-position {
   position: relative;
@@ -386,7 +435,15 @@ footer p {
   margin-right: 30px;
 }
 
-.staircase-divider {
+.staircase-title h2 {
+    padding-bottom: 30px;
+}
+
+.staircase-title h3 {
+    padding-top: 30px;
+}
+
+.standard-divider .staircase-divider {
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -409,6 +466,8 @@ footer p {
   padding-right: 0px;
   margin-top: 0px;
 }
+
+/* Media query to make design responsive on smaller screens */
 
 @media screen and (max-width: 540px) {
   .staircase-title {
@@ -439,6 +498,9 @@ footer p {
     min-height: 300px;
   }
 }
+
+/* End of media query section*/
+
 /*-------------------------------------------------------- Founders section*/
 
 .founders-section-bg {
@@ -446,7 +508,9 @@ footer p {
 }
 
 .founders-title {
-  padding-top: 30px;
+    margin: 0 auto;
+text-align: center;
+  padding-top: 60px;
   padding-bottom: 30px;
 }
 
@@ -456,6 +520,13 @@ footer p {
 
 .founders-details {
     text-align: center;
+        padding-top: 40px;
+}
+
+.founders-photos .founder-details {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
 }
 
 .founders-photos div {
@@ -465,9 +536,30 @@ footer p {
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  padding-top: 30px;
 }
 
-/*---Photos individually sized to crop them to the same format*/
+/* Media query to make design responsive on smaller screens */
+
+@media screen and (max-width: 540px) {
+  #staircase-title-sm {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+.founders-photos {
+    padding-bottom: 20px;
+    }
+
+.founder-names {
+  font-size: 30px;
+  margin-bottom: 0px;
+    }
+}
+/* End of media query section*/
+
+/*Photos individually sized to crop them to the same format*/
 
 #founder-andy {
   background: url("../images/andy.jpg");
@@ -489,6 +581,8 @@ background-size: 250px;
   background-position-x: 40%;
   background-position-y: 20%;
 }
+
+/*Hover function for founders photos*/
 
 .founders-photos div {
     opacity: 1.0;
