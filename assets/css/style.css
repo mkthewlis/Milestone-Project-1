@@ -16,7 +16,6 @@ body {
   background-color: #dce3ed;
 }
 
-.package-section-bg,
 .core-features-bg,
 .founders-section-bg,
 .services-features-bg,
@@ -24,12 +23,9 @@ body {
   background-color: rgba(203, 211, 223, 0.28);
 }
 
+.services-title-bg .package-section-bg,
 .staircase-info-bg {
   background-color: rgba(255, 255, 255);
-}
-
-.services-title-bg {
-      background-color: rgba(255, 255, 255);
 }
 
 /*-------------------------------------------------------- Font & font styles*/
@@ -130,7 +126,8 @@ footer p {
 }
 
 .staircase-title h3,
-.services-title h3 {
+.services-title h3,
+.package-section h2 {
   font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -147,9 +144,9 @@ footer p {
   color: #433e3a;
 }
 
-.founder-names, 
+.founder-names,
 .three-features h3 {
-font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -157,7 +154,15 @@ font-family: "Open Sans", sans-serif;
 }
 
 .founder-details {
-font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #433e3a;
+}
+
+.package-section ul li {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -167,7 +172,14 @@ font-family: "Open Sans", sans-serif;
 /*-------------------------------------------------------- Dividers & icons*/
 
 .standard-divider {
-  width: 557px;
+  width: 450px;
+  height: 0px;
+  margin: 0 auto;
+  border: 3px solid rgba(67, 62, 58, 0.75);
+}
+
+.boutique-divider {
+width: 557px;
   height: 0px;
   margin: 0 auto;
   border: 3px solid rgba(67, 62, 58, 0.75);
@@ -187,31 +199,28 @@ font-family: "Open Sans", sans-serif;
     border: 2px solid rgba(67, 62, 58, 0.75);
     margin-top: 30px;
     margin-bottom: 30px;
-    }
+  }
 
+  #package-divider-sm,
   #founders-divider-sm {
     max-width: 300px;
     margin: 0 auto;
     border: 1px solid rgba(67, 62, 58, 0.75);
-    }
+  }
 
-#boutique-divider-sm {
+  #boutique-divider-sm {
     display: none;
-    }
+  }
 }
 
 /* End of media query section*/
 
+#package-divider-sm,
+#founders-divider-sm,
 #staircase-divider-sm {
-      margin: 0 auto;
-    border: 1px solid rgba(67, 62, 58, 0.75);
+  margin: 0 auto;
+  border: 1px solid rgba(67, 62, 58, 0.75);
 }
-
-#founders-divider-sm {
-      margin: 0 auto;
-    border: 1px solid rgba(67, 62, 58, 0.75);
-}
-
 
 /*-------------------------------------------------------- Navbar*/
 
@@ -348,6 +357,7 @@ footer p {
 
 /* End of media query section*/
 
+/*Button styling, including hover*/
 .schedule-btn {
   background-color: #dce3ed;
   border-color: #dce3ed;
@@ -440,11 +450,11 @@ footer p {
 }
 
 .staircase-title h2 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .staircase-title h3 {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .standard-divider .staircase-divider {
@@ -508,12 +518,12 @@ footer p {
 /*-------------------------------------------------------- Founders section*/
 
 .founders-section-bg {
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .founders-title {
-    margin: 0 auto;
-text-align: center;
+  margin: 0 auto;
+  text-align: center;
   padding-top: 60px;
   padding-bottom: 30px;
 }
@@ -523,14 +533,14 @@ text-align: center;
 }
 
 .founders-details {
-    text-align: center;
-        padding-top: 40px;
+  text-align: center;
+  padding-top: 40px;
 }
 
 .founders-photos .founder-details {
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
 }
 
 .founders-photos div {
@@ -552,14 +562,14 @@ text-align: center;
     text-align: center;
   }
 
-.founders-photos {
+  .founders-photos {
     padding-bottom: 20px;
-    }
+  }
 
-.founder-names {
-  font-size: 30px;
-  margin-bottom: 0px;
-    }
+  .founder-names {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
 }
 /* End of media query section*/
 
@@ -574,7 +584,7 @@ text-align: center;
 
 #founder-malin {
   background: url("../images/malin.jpg");
-background-size: 250px;
+  background-size: 250px;
   background-position-x: 45%;
   background-position-y: 30%;
 }
@@ -589,30 +599,41 @@ background-size: 250px;
 /*Hover function for founders photos*/
 
 .founders-photos div {
-    opacity: 1.0;
-    transition: 1s ease-in-out;
-    -moz-transition: 1s ease-in-out;
-    -webkit-transition: 1s ease-in-out;
+  opacity: 1;
+  transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
 }
 
 .founders-photos div:hover {
-    opacity: 0.7;
-    transition: .55s ease-in-out;
-    -moz-transition:  .55s ease-in-out;
-    -webkit-transition: .55s ease-in-out;
-}​
+  opacity: 0.7;
+  transition: 0.55s ease-in-out;
+  -moz-transition: 0.55s ease-in-out;
+  -webkit-transition: 0.55s ease-in-out;
+}
+​
 
 /*------------------------------------------------------------------------------### services.html ### */
 
 /*-------------------------------------------------------- Services title section*/
 
 .services-photo {
-  background: url("../images/blazer.jpg");
+  background: url("../images/woman-in-white-blazer-holding-tablet-computer-789822.jpg");
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  width: 150px;
-  height: 150px;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 300px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .services-md {
+    min-height: 300px;
+  }
 }
 
 .services-title {
@@ -622,11 +643,11 @@ background-size: 250px;
 }
 
 .services-title h2 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .services-title h3 {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .standard-divider .services-divider {
@@ -637,14 +658,14 @@ background-size: 250px;
 /*-------------------------------------------------------- Services features section*/
 
 .three-features-details {
-     padding-top: 0px;
+  padding-top: 0px;
   padding-bottom: 150px;
 }
 
 /*-------------------------------------------------------- Package section*/
 
 .package-photo {
-     background: url("../images/desk_tablet.jpg");
+  background: url("../images/desk_tablet.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -655,3 +676,81 @@ background-size: 250px;
   padding-right: 0px;
   margin-top: 0px;
 }
+
+.package-section {
+  margin-top: 50px;
+}
+
+.package-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.package-section ul {
+  margin-top: 30px;
+}
+
+.package-section i {
+  margin-right: 10px;
+}
+
+/*Custom bullet point icons styling courtesy of:
+https://hollypryce.com/font-awesome-bullet-points/ */
+.package-section ul li {
+  list-style-type: none;
+  text-align: left;
+  padding: 0 10px 0 0;
+  line-height: 50px;
+}
+
+.package-section a {
+  text-align: center;
+  align-content: center;
+  margin-bottom: 150px;
+}
+
+.package-btn {
+  background-color: #433e3a;
+  border-color: #433e3a;
+  border-radius: 30px;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.btn-hover:hover {
+  background-color: #dce3ed;
+  border-color: #dce3ed;
+  color: #433e3a;
+}
+
+/* Media query to make design responsive on smaller screens */
+
+@media screen and (max-width: 540px) {
+  .package-section ul {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .package-section ul li {
+    line-height: 45px;
+    margin-left: 20px;
+  }
+
+#package-btn-sm-screen {
+  background-color: #433e3a;
+  border-color: #433e3a;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.services-photo,
+.package-photo {
+      min-height: 300px;
+}
+
+}
+
+/* End of media query section*/
