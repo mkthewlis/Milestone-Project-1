@@ -86,11 +86,6 @@ body {
   color: #433e3a;
 }
 
-.features-section .features-title {
-  font-weight: 600;
-  font-size: 28px;
-}
-
 .three-features {
   font-weight: 400;
   font-size: 24px;
@@ -135,6 +130,7 @@ footer p {
   font-size: 30px;
 }
 
+.features-title,
 .founders-title {
   font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
@@ -169,6 +165,19 @@ footer p {
   color: #433e3a;
 }
 
+.sign-up-text {
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #433e3a;
+}
+
+.sign-up-text h3 {
+  font-weight: 300;
+}
+
 /*-------------------------------------------------------- Dividers & icons*/
 
 .standard-divider {
@@ -179,7 +188,7 @@ footer p {
 }
 
 .boutique-divider {
-width: 557px;
+  width: 557px;
   height: 0px;
   margin: 0 auto;
   border: 3px solid rgba(67, 62, 58, 0.75);
@@ -211,6 +220,13 @@ width: 557px;
   #boutique-divider-sm {
     display: none;
   }
+
+  #contact-divider-sm {
+    text-align: center;
+    max-width: 300px;
+    border: 2px solid rgba(67, 62, 58, 0.75);
+    margin: 30px 15px 30px 15px;
+  }
 }
 
 /* End of media query section*/
@@ -220,6 +236,12 @@ width: 557px;
 #staircase-divider-sm {
   margin: 0 auto;
   border: 1px solid rgba(67, 62, 58, 0.75);
+}
+
+.contact-divider {
+  width: 700px;
+  margin-right: 55px;
+  border: 2px solid rgba(67, 62, 58, 0.75);
 }
 
 /*-------------------------------------------------------- Navbar*/
@@ -377,7 +399,7 @@ footer p {
 .features-section {
   position: relative;
   padding-top: 80px;
-  padding-bottom: 300px;
+  padding-bottom: 200px;
 }
 
 .features-title {
@@ -617,12 +639,12 @@ footer p {
 
 /*-------------------------------------------------------- Services title section*/
 
-.services-photo {
+.service-photo {
   background: url("../images/woman-in-white-blazer-holding-tablet-computer-789822.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 500px;
   min-height: 300px;
   padding-top: 0px;
   padding-left: 0px;
@@ -644,6 +666,8 @@ footer p {
 
 .services-title h2 {
   padding-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .services-title h3 {
@@ -694,6 +718,16 @@ footer p {
   margin-right: 10px;
 }
 
+.package-section .package-fee {
+  margin-left: 120px;
+  padding-top: 20px;
+  line-height: 70px;
+}
+
+.package-section span {
+  font-weight: 600;
+}
+
 /*Custom bullet point icons styling courtesy of:
 https://hollypryce.com/font-awesome-bullet-points/ */
 .package-section ul li {
@@ -737,20 +771,146 @@ https://hollypryce.com/font-awesome-bullet-points/ */
     margin-left: 20px;
   }
 
-#package-btn-sm-screen {
-  background-color: #433e3a;
-  border-color: #433e3a;
+  #package-btn-sm-screen {
+    background-color: #433e3a;
+    border-color: #433e3a;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .services-photo,
+  .package-photo {
+    min-height: 300px;
+  }
+
+  #package-fee-sm {
+    text-align: center;
+    margin-left: 15px;
+    line-height: 50px;
+  }
+}
+/* End of media query section*/
+
+/*------------------------------------------------------------------------------### contact.html ### */
+
+.contact-photo {
+  background: url("../images/desk.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 909px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+}
+
+.sign-up-text {
+  position: absolute;
+  top: 180px;
+  left: 650px;
+}
+
+.sign-up-text h2 {
+  padding-bottom: 30px;
+}
+
+.sign-up-text h3 {
+  padding-top: 30px;
+}
+
+.sign-up-btn {
+  background-color: #dce3ed;
+  border-color: #dce3ed;
   border-radius: 30px;
-  margin-left: 100px;
+  margin-left: 150px;
   margin-top: 30px;
-  margin-bottom: 50px;
+  color:#433e3a;
 }
 
-.services-photo,
-.package-photo {
-      min-height: 300px;
+
+/* Media query to make design responsive on smaller screens */
+
+@media screen and (max-width: 540px) {
+  .contact-photo {
+    background-position-x: 53%;
+  }
+
+  .sign-up-text {
+    position: static;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .sign-up-text h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
+@media screen and (max-width: 720px) {
+  .sign-up-text {
+    position: static;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .sign-up-btn {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .contact-divider {
+      width: 500px;
+  }
 }
 
+@media screen and (max-width: 960px) {
+ .sign-up-text {
+    position: static;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .sign-up-btn {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .contact-divider {
+      width: 500px;
+      margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+ .sign-up-text {
+    position: static;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .sign-up-btn {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .contact-divider {
+      width: 500px;
+      margin: 0 auto;
+  }
+}
 /* End of media query section*/
