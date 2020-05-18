@@ -20,8 +20,16 @@ body {
   background-color: #dce3ed;
 }
 
+.staircase-title-bg {
+  background-color: rgba(203, 211, 223, 0.28);
+}
+
+.staircase-info-bg {
+  background-color: rgba(255, 255, 255);
+}
+
 .founders-section-bg {
-    background-color: rgba(203, 211, 223, 0.28);
+  background-color: rgba(203, 211, 223, 0.28);
 }
 
 /*-------------------------------------------------------- Font & font styles*/
@@ -53,6 +61,15 @@ body {
 .statement-section,
 .features-title {
   font-family: "Open Sans", sans-serif;
+  color: #433e3a;
+}
+
+.features-title {
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
   color: #433e3a;
 }
 
@@ -96,16 +113,27 @@ footer p {
 }
 
 .staircase-info p {
-font-family: "Open Sans", sans-serif; 
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .staircase-title {
-    font-family: "Open Sans", sans-serif;
-    color: #433e3a;
-    font-size: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #433e3a;
+  font-size: 30px;
+}
+
+.founders-title {
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #433e3a;
 }
 
 /*-------------------------------------------------------- Dividers & icons*/
@@ -124,14 +152,13 @@ font-size: 20px;
 }
 
 @media screen and (max-width: 540px) {
-#staircase-divider-sm {
+  #staircase-divider-sm {
     max-width: 300px;
     border: 2px solid rgba(67, 62, 58, 0.75);
     margin-top: 30px;
-    margin-bottom: 30px; 
-    }
+    margin-bottom: 30px;
+  }
 }
-
 
 /*-------------------------------------------------------- Navbar*/
 
@@ -154,7 +181,7 @@ font-size: 20px;
 
 @media screen and (max-width: 540px) {
   .navbar-nav .nav-link {
-      padding-left: 5px;
+    padding-left: 5px;
   }
 }
 
@@ -165,7 +192,6 @@ font-size: 20px;
 #logo-hover:hover {
   color: #7a94bd;
 }
-
 
 /*-------------------------------------------------------- Footer*/
 
@@ -198,7 +224,6 @@ footer p {
 .media-icons i:hover {
   color: #7a94bd;
 }
-
 
 /*------------------------------------------------------------------------------### index.html ### */
 
@@ -346,20 +371,23 @@ footer p {
 /*-------------------------------------------------------- Staircase section*/
 
 .staircase-title {
-    text-align: center;
-    margin-top: 50px;
-    padding-bottom: 0px; 
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .staircase-divider {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .staircase-info {
-    padding-left: 25px;
-    padding-right: 22px;
-    padding-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 22px;
+  padding-bottom: 30px;
+  padding-top: 50px;
 }
 
 .staircase-photo {
@@ -375,36 +403,57 @@ footer p {
   margin-top: 0px;
 }
 
-
 @media screen and (max-width: 540px) {
-.staircase-title {
-    margin-top: 30px;
-    margin-bottom: 30px; 
-    }
+  .staircase-title {
+    margin: 30px 10px 30px 10px;
+    padding-bottom: 0px;
+  }
 
-.staircase-info {
+  .staircase-info {
     text-align: center;
     font-size: 20px;
     padding-bottom: 20px;
-    }
+  }
 
-.staircase-photo {
+  .staircase-photo {
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    }
+  }
 }
 
 @media screen and (max-width: 991px) {
-    .staircase-title {
+  .staircase-title {
     margin-top: 70px;
-    margin-bottom: 70px; 
-    }
+    margin-bottom: 70px;
+    padding-bottom: 0px;
+  }
   .staircase-md {
-    min-height: 400px;
+    min-height: 300px;
   }
 }
 /*-------------------------------------------------------- Founders section*/
 
+.founders-details {
+    display: inline-block;
+}
 
+.founder-names {
+    padding-top: 30px;
+}
 
+.founders-photos {
+  text-align: center;
+}
+
+.founders-photos img {
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+}
