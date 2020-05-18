@@ -136,6 +136,14 @@ footer p {
   color: #433e3a;
 }
 
+.founder-names {
+font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #433e3a;
+}
+
 /*-------------------------------------------------------- Dividers & icons*/
 
 .standard-divider {
@@ -396,7 +404,6 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 900px;
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -434,26 +441,65 @@ footer p {
 }
 /*-------------------------------------------------------- Founders section*/
 
-.founders-details {
-    display: inline-block;
+.founders-section-bg {
+    padding-bottom: 100px;
+}
+
+.founders-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .founder-names {
-    padding-top: 30px;
+  padding-top: 20px;
 }
 
-.founders-photos {
-  text-align: center;
+.founders-details {
+    text-align: center;
 }
 
-.founders-photos img {
+.founders-photos div {
+  display: inline-block;
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 150px;
-  max-height: 150px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-top: 0px;
 }
+
+/*---Photos individually sized to crop them to the same format*/
+
+#founder-andy {
+  background: url("../images/andy.jpg");
+  background-size: 490px;
+  background-position-x: 45%;
+  background-position-y: 60%;
+}
+
+#founder-malin {
+  background: url("../images/malin.jpg");
+background-size: 250px;
+  background-position-x: 45%;
+  background-position-y: 30%;
+}
+
+#founder-sid {
+  background: url("../images/sid.jpg");
+  background-size: 290px;
+  background-position-x: 40%;
+  background-position-y: 20%;
+}
+
+.founders-photos div {
+    opacity: 1.0;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+}
+
+.founders-photos div:hover {
+    opacity: 0.7;
+    transition: .55s ease-in-out;
+    -moz-transition:  .55s ease-in-out;
+    -webkit-transition: .55s ease-in-out;
+}​
