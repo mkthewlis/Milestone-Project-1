@@ -22,7 +22,8 @@ body {
   background-color: rgba(203, 211, 223, 0.28);
 }
 
-.services-title-bg .package-section-bg, .founders-section-bg,
+.services-title-bg .package-section-bg,
+.founders-section-bg,
 .staircase-info-bg {
   background-color: rgba(255, 255, 255);
 }
@@ -491,7 +492,7 @@ footer p {
 }
 
 .founders-details p {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .founders-photos {
@@ -631,7 +632,7 @@ https://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html
 }
 
 .staircase-section {
-    padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 /* Media query to make design responsive on smaller screens */
@@ -673,7 +674,7 @@ https://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html
 /*-------------------------------------------------------- Services title section*/
 
 .services-photo {
-  background: url("..assets/images/woman-in-white-blazer-holding-tablet-computer-789822.jpg");
+background: url("../images/woman-in-white-blazer-holding-tablet-computer-789822.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -681,15 +682,35 @@ https://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html
   min-height: 527px;
 }
 
-@media screen and (max-width: 991px) {
+/* Media query to make design responsive on smaller screens */
+
+@media screen and (max-width: 720px) {
+    .services-photo {
+        min-height: 300px;
+    }
+.services-title-md{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+    }
+
+@media screen and (max-width: 992px) {
   .services-md {
     min-height: 300px;
   }
+
+.services-title-md{
+    padding-top: 0px;
+    margin-top: 0px;
 }
+
+}
+/* End of media query section*/
 
 .services-title {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 140px;
   padding-bottom: 50px;
   padding-right: 30px;
 }
