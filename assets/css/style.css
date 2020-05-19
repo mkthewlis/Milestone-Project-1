@@ -28,6 +28,13 @@ body {
   background-color: rgba(255, 255, 255);
 }
 
+.form-bg {
+    background-color: rgba(203, 211, 223, 0.05);
+    border: 0.5px solid #7A7573;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
 /*-------------------------------------------------------- Font & font styles*/
 
 .menu-bar .logo-style {
@@ -225,7 +232,6 @@ footer p {
     text-align: center;
     max-width: 300px;
     border: 2px solid rgba(67, 62, 58, 0.75);
-    margin: 30px 15px 30px 15px;
   }
 }
 
@@ -388,7 +394,7 @@ footer p {
   margin-top: 30px;
 }
 
-.btn-hover:hover {
+.schedule-btn-hover:hover {
   background-color: #433e3a;
   border-color: #433e3a;
   color: #dce3ed;
@@ -639,18 +645,15 @@ footer p {
 
 /*-------------------------------------------------------- Services title section*/
 
-.service-photo {
-  background: url("../images/woman-in-white-blazer-holding-tablet-computer-789822.jpg");
+.services-photo {
+  background: url("..assets/images/woman-in-white-blazer-holding-tablet-computer-789822.jpg");
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  width: 500px;
-  min-height: 300px;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-top: 0px;
+  background-size: cover;
+  width: 100%;
+  min-height: 775px;
 }
+
 
 @media screen and (max-width: 991px) {
   .services-md {
@@ -662,6 +665,7 @@ footer p {
   text-align: center;
   margin-top: 50px;
   padding-bottom: 50px;
+  padding-right: 30px;
 }
 
 .services-title h2 {
@@ -751,7 +755,7 @@ https://hollypryce.com/font-awesome-bullet-points/ */
   margin-top: 30px;
 }
 
-.btn-hover:hover {
+.package-btn-hover:hover {
   background-color: #dce3ed;
   border-color: #dce3ed;
   color: #433e3a;
@@ -801,7 +805,7 @@ https://hollypryce.com/font-awesome-bullet-points/ */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 909px;
+  min-height: 950px;
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -810,7 +814,7 @@ https://hollypryce.com/font-awesome-bullet-points/ */
 
 .sign-up-text {
   position: absolute;
-  top: 180px;
+  top: 110px;
   left: 650px;
 }
 
@@ -820,17 +824,40 @@ https://hollypryce.com/font-awesome-bullet-points/ */
 
 .sign-up-text h3 {
   padding-top: 30px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.contact-divider {
+    margin-right: 550px;
+    width: 420px;
 }
 
 .sign-up-btn {
+font-family: "Open Sans", sans-serif;
+  color: #433e3a;
+  font-size: 20px;
+  line-height: 40px;
+  padding: 5px 15px 5px 15px;
   background-color: #dce3ed;
   border-color: #dce3ed;
   border-radius: 30px;
   margin-left: 150px;
-  margin-top: 30px;
-  color:#433e3a;
+  margin-top: 20px;
 }
 
+/* Contact form */
+.form-style {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    text-align: center;
+    width: 420px;
+}
+
+form .sign-up-btn {
+    margin-left: 0px;
+}
 
 /* Media query to make design responsive on smaller screens */
 
@@ -853,6 +880,9 @@ https://hollypryce.com/font-awesome-bullet-points/ */
     margin-left: 15px;
     margin-right: 15px;
   }
+.form-style { 
+    width: 320px;
+    }
 }
 
 @media screen and (max-width: 720px) {
@@ -863,14 +893,15 @@ https://hollypryce.com/font-awesome-bullet-points/ */
     margin-left: 0px;
     margin-right: 0px;
   }
-
   .sign-up-btn {
     text-align: center;
     margin-left: 0px;
   }
-
   .contact-divider {
       width: 500px;
+  }
+   .form-style {
+      margin: 0 auto;
   }
 }
 
@@ -892,25 +923,17 @@ https://hollypryce.com/font-awesome-bullet-points/ */
       width: 500px;
       margin: 0 auto;
   }
-}
-
-@media screen and (max-width: 1200px) {
- .sign-up-text {
-    position: static;
-    text-align: center;
-    padding-top: 50px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .sign-up-btn {
-    text-align: center;
-    margin-left: 0px;
-  }
-
-  .contact-divider {
-      width: 500px;
+  .form-style {
       margin: 0 auto;
   }
 }
+
 /* End of media query section*/
+
+/*Sign-up button including hover*/
+
+.sign-up-btn-hover:hover {
+  background-color: #433e3a;
+  border-color: #433e3a;
+  color: #dce3ed;
+}

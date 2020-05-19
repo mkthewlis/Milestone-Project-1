@@ -73,15 +73,21 @@
                 id="contact-divider-sm"
               />
               <h3>
-                Send us your details and we’ll get in touch to book a free consultation call.
+                Send us your details and we’ll get in touch to book a free
+                consultation call.
               </h3>
-              <a
-                class="btn btn-primary btn-lg sign-up-btn btn-hover"
-                id="btn-sm-screen"
-                href="contact.html"
-                role="button"
-                >Schedule call</a
-              >
+              <!--Form structure from Bootstrap-->
+              <form>
+                <div class="form-group form-style">
+                <input type="text" name="first-name" id="firstname" class="form-control form-bg" placeholder="First Name" required />
+                <input type="text" name="first-name" id="lastname" class="form-control form-bg" placeholder="Last Name" required />
+                <input type="email" name="email" id="emailaddress"  class="form-control form-bg" placeholder="Email" required />
+                </div>
+                <input type="submit" value="Submit" class="sign-up-btn sign-up-btn-hover" id="btn-sm-screen"/>
+              </form>
+
+              <!--
+              <a class="btn btn-primary btn-lg sign-up-btn sign-up-btn-hover" id="btn-sm-screen" role="button">Submit</a> -->
             </div>
           </div>
         </div>
