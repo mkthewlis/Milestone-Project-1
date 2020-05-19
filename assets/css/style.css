@@ -675,6 +675,7 @@ https://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html
 
 .services-photo {
 background: url("../images/woman-in-white-blazer-holding-tablet-computer-789822.jpg");
+opacity: 0.9;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -723,6 +724,8 @@ background: url("../images/woman-in-white-blazer-holding-tablet-computer-789822.
 
 .services-title h3 {
   padding-top: 30px;
+    margin-left: 15px;
+  margin-right: 15px;
 }
 
 .standard-divider .services-divider {
