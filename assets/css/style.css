@@ -17,13 +17,12 @@ body {
 }
 
 .core-features-bg,
-.founders-section-bg,
 .services-features-bg,
 .staircase-title-bg {
   background-color: rgba(203, 211, 223, 0.28);
 }
 
-.services-title-bg .package-section-bg,
+.services-title-bg .package-section-bg, .founders-section-bg,
 .staircase-info-bg {
   background-color: rgba(255, 255, 255);
 }
@@ -119,7 +118,8 @@ footer p {
 }
 
 .staircase-title h2,
-.services-title h2 {
+.services-title h2,
+.founders-title {
   font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -137,8 +137,7 @@ footer p {
   font-size: 30px;
 }
 
-.features-title,
-.founders-title {
+.features-title {
   font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -467,92 +466,16 @@ footer p {
 
 /*------------------------------------------------------------------------------### about.html ### */
 
-/*-------------------------------------------------------- Staircase section*/
-
-.staircase-title {
-  text-align: center;
-  margin-top: 50px;
-  padding-bottom: 50px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.staircase-title h2 {
-  padding-bottom: 30px;
-}
-
-.staircase-title h3 {
-  padding-top: 30px;
-}
-
-.standard-divider .staircase-divider {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.staircase-info {
-  padding-left: 25px;
-  padding-right: 22px;
-  padding-bottom: 30px;
-  padding-top: 50px;
-}
-
-.staircase-photo {
-  background: url("../images/staircase.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-top: 0px;
-}
-
-/* Media query to make design responsive on smaller screens */
-
-@media screen and (max-width: 540px) {
-  .staircase-title {
-    margin: 30px 10px 30px 10px;
-    padding-bottom: 0px;
-  }
-
-  .staircase-info {
-    text-align: center;
-    font-size: 20px;
-    padding-bottom: 20px;
-  }
-
-  .staircase-photo {
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .staircase-title {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    padding-bottom: 0px;
-  }
-  .staircase-md {
-    min-height: 300px;
-  }
-}
-
-/* End of media query section*/
-
 /*-------------------------------------------------------- Founders section*/
 
 .founders-section-bg {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .founders-title {
   margin: 0 auto;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
@@ -574,7 +497,7 @@ footer p {
 .founders-photos {
   margin-left: 20px;
   margin-right: 20px;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .founders-photos .founder-names h3 {
@@ -664,6 +587,86 @@ https://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html
   -webkit-transition: 0.2s ease-in-out;
   text-decoration: underline;
 }
+
+/*-------------------------------------------------------- Staircase section*/
+
+.staircase-title {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.staircase-title h2 {
+  padding-bottom: 30px;
+}
+
+.staircase-title h3 {
+  padding-top: 30px;
+}
+
+.standard-divider .staircase-divider {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.staircase-info {
+  padding-left: 25px;
+  padding-right: 22px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+.staircase-photo {
+  background: url("../images/staircase.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+}
+
+.staircase-section {
+    padding-bottom: 80px;
+}
+
+/* Media query to make design responsive on smaller screens */
+
+@media screen and (max-width: 540px) {
+  .staircase-title {
+    margin: 30px 10px 30px 10px;
+    padding-bottom: 0px;
+  }
+
+  .staircase-info {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .staircase-photo {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .staircase-title {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-bottom: 0px;
+  }
+  .staircase-md {
+    min-height: 300px;
+  }
+}
+
+/* End of media query section*/
 
 /*------------------------------------------------------------------------------### services.html ### */
 
