@@ -29,10 +29,10 @@ body {
 }
 
 .form-bg {
-    background-color: rgba(203, 211, 223, 0.05);
-    border: 0.5px solid #7A7573;
-    margin-top: 5px;
-    margin-bottom: 0px;
+  background-color: rgba(203, 211, 223, 0.05);
+  border: 0.5px solid #7a7573;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 /*-------------------------------------------------------- Font & font styles*/
@@ -152,7 +152,7 @@ footer p {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 28px;
   color: #433e3a;
 }
 
@@ -563,12 +563,22 @@ footer p {
 .founders-details {
   text-align: center;
   padding-top: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-.founders-photos .founder-details {
+.founders-details p {
+    margin-top: 20px;
+}
+
+.founders-photos {
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 20px;
+}
+
+.founders-photos .founder-names h3 {
+  padding-top: 80px;
 }
 
 .founders-photos div {
@@ -590,19 +600,29 @@ footer p {
     text-align: center;
   }
 
-  .founders-photos {
-    padding-bottom: 20px;
+  .founders-section-bg {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  #founders-margin-sm {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .founder-names {
-    font-size: 30px;
     margin-bottom: 0px;
+  }
+
+  .founders-photos div div {
+    filter: none;
   }
 }
 /* End of media query section*/
 
 /*Photos individually sized to crop them to the same format*/
-
 #founder-andy {
   background: url("../images/andy.jpg");
   background-size: 490px;
@@ -624,22 +644,26 @@ footer p {
   background-position-y: 20%;
 }
 
-/*Hover function for founders photos*/
+/*Hover function for founders photos, courtesy of Salman Abbas' answer on 05/03/17 
+on StackOverflow with my own changes added: 
+https://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html-css*/
 
 .founders-photos div {
-  opacity: 1;
-  transition: 1s ease-in-out;
-  -moz-transition: 1s ease-in-out;
-  -webkit-transition: 1s ease-in-out;
+  filter: gray;
+  -webkit-filter: grayscale(70%);
+  transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
 }
 
 .founders-photos div:hover {
-  opacity: 0.7;
-  transition: 0.55s ease-in-out;
-  -moz-transition: 0.55s ease-in-out;
-  -webkit-transition: 0.55s ease-in-out;
+  -webkit-filter: grayscale(0);
+  filter: none;
+  transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  text-decoration: underline;
 }
-​
 
 /*------------------------------------------------------------------------------### services.html ### */
 
@@ -651,9 +675,8 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 775px;
+  min-height: 527px;
 }
-
 
 @media screen and (max-width: 991px) {
   .services-md {
@@ -813,9 +836,13 @@ https://hollypryce.com/font-awesome-bullet-points/ */
 }
 
 .sign-up-text {
-  position: absolute;
-  top: 110px;
-  left: 650px;
+  position: static;
+  margin-left: 700px;
+  margin-top: 90px;
+}
+
+.sign-up-titles {
+  margin-right: 270px;
 }
 
 .sign-up-text h2 {
@@ -825,20 +852,19 @@ https://hollypryce.com/font-awesome-bullet-points/ */
 .sign-up-text h3 {
   padding-top: 30px;
   padding-right: 0px;
-  margin-right: 0px;
 }
 
 .contact-divider {
-    margin-right: 550px;
-    width: 420px;
+  margin-right: 550px;
+  width: 420px;
 }
 
 .sign-up-btn {
-font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #433e3a;
   font-size: 20px;
-  line-height: 40px;
-  padding: 5px 15px 5px 15px;
+  line-height: 35px;
+  padding: 5px 25px 5px 25px;
   background-color: #dce3ed;
   border-color: #dce3ed;
   border-radius: 30px;
@@ -848,15 +874,15 @@ font-family: "Open Sans", sans-serif;
 
 /* Contact form */
 .form-style {
-    padding-top: 20px;
-    padding-bottom: 0px;
-    margin-left: 0px;
-    text-align: center;
-    width: 420px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+  text-align: center;
+  width: 420px;
 }
 
 form .sign-up-btn {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 
 /* Media query to make design responsive on smaller screens */
@@ -874,15 +900,13 @@ form .sign-up-btn {
     margin-right: 20px;
   }
 
-  .sign-up-text h3 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+  .sign-up-titles {
+    margin-right: 30px;
   }
-.form-style { 
+
+  .form-style {
     width: 320px;
-    }
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -898,15 +922,19 @@ form .sign-up-btn {
     margin-left: 0px;
   }
   .contact-divider {
-      width: 500px;
+    width: 500px;
   }
-   .form-style {
-      margin: 0 auto;
+  .form-style {
+    margin: 0 auto;
+  }
+
+  .sign-up-titles {
+    margin-right: 0px;
   }
 }
 
-@media screen and (max-width: 960px) {
- .sign-up-text {
+@media screen and (max-width: 1300px) {
+  .sign-up-text {
     position: static;
     text-align: center;
     padding-top: 50px;
@@ -920,17 +948,20 @@ form .sign-up-btn {
   }
 
   .contact-divider {
-      width: 500px;
-      margin: 0 auto;
+    width: 500px;
+    margin: 0 auto;
   }
   .form-style {
-      margin: 0 auto;
+    margin: 0 auto;
+  }
+
+  .sign-up-titles {
+    margin-right: 0px;
   }
 }
-
 /* End of media query section*/
 
-/*Sign-up button including hover*/
+/*Sign-up button hover function*/
 
 .sign-up-btn-hover:hover {
   background-color: #433e3a;
