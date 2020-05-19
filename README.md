@@ -14,6 +14,59 @@ Recognition so far to:
 
 ### This is not a comprehensive README document - its something to keep me going as I work. 
 
+# Code Institute: Milestone Project 1
+
+## The Career Changers
+
+*---A boutique coaching service aimed at helping those who want to change their careers.*
+
+My idea for this project came as the result of going through a career changing process myself. Leading up to the beginning of my studies with the Code Institute, I had spent a lot of time reading and researching about the process. I had read through countless articles and listened to podcasts made by others who had successfully changed their careers.
+However, sifting through information online also led me to finding several career coaching services that seemed to offer advice and guidance to clients who knew they wanted to take their careers in a different direction. 
+Although interesting, I found that most of these services didn't seem accessible for younger workers, including millennials, who perhaps hadn't had as many years of working experience as other clients might. 
+
+Given my experience of exploring the websites of different career coaching services, I thought that I would try to design a website that would appeal to a diffent market by offering a less formal approach. Consequently, my main aim was to make a website that was very easy to navigate, would not seem intimidating to young career changers and would be credible as the fictional founders are career changers themselves.
+
+The project can be viewed here: https://mkthewlis.github.io/Milestone-Project-1/
+
+## UX
+ 
+Deciding to change your career can be an intimidating process. Although the decision itself may not be so difficult, knowing where to start and how to proceed can be as daunting as walking blindfolded into a forest. This is especially true as there are plenty of articles, opinion pieces and books readily available that offer advice and suggestions to make the process as smooth as possible. 
+As a user faced with so many options, it could be tempting to get trapped by the research phase and therefore feel unable to actually begin.
+
+With this in mind, I came up with the idea of 'The Career Changers'. I wanted to offer prospective career changers an alternative to the confusing mix of advice and suggestions online. Rather than continuing to jump between different pieces of advice, I wanted to offer a coaching service that was streamlined in its advice. The user would be matched with an individual career coach and would work
+closely with them from the first meeting to the final interview of a future job. In so doing, it would take away the user's stress and anxiety from being overwhelmed by other sources of information; instead, they would feel that they could rely on an expert with experience in their particular field.
+
+To make The Career Changers service credible, I knew that this fictional organisation would have to come across as reliable and professional. I therefore wanted the design to be simple and streamlined, with a sutble colour scheme and all of the key information readily available.
+However, I also wanted the website to not come across as intimidating. To do this, I knew that I should start by finding a hero image that would draw the user in by seeming relatable. This idea also inspired me to include photos of the founders to add a friendly and 'human' element to the organisation. 
+
+With this in mind, I began by searching for an appropriate image to use on my landing page. Once found, I set up my workspace on Figma and began exploring with the colour theme there.
+All colours from the project were ultimately taken from this original image. 
+
+My workspace on Figma can be found on the following link, with earlier versions of my project design shown underneath: https://www.figma.com/file/Hv9GYC33ydTGLuwIxydgRr/Code-Institute?node-id=0%3A1
+
+Throughout the design process, I worked with the following User Stories:
+- I am a user who wants to change career. Despite having done my fair share of research online I was at a loss as to where to start. I remember thinking that it would be great to have some support along the way. 
+Eventually I found this boutique coaching service and navigated my way through the website to schedule a call with them. I am now a client and will soon start applying for jobs in a different field. Success!
+- I am a user who works for a competing career counselling service. I wanted to quickly navigate my way through the website to find the price and package details of what was on offer. I found the information I 
+needed on the third page. 
+- I am a user who is still unconvinced about whether I might need support as I change my career. I wanted to get into contact with The Career Changers as I came across their profile on LinkedIn and am curious about their services.
+ I found my way to the contact page and completed form. I am now waiting to hear back from them to schedule a call for more information.
+
+## Features
+
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+ 
+### Existing Features
+- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- ...
+
+For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
+### Features Left to Implement
+- Another feature idea
+
 
 
 
@@ -24,9 +77,6 @@ Recognition so far to:
 
 # Template below:
 
-
-
-## Your Project's Name
 
 One or two paragraphs providing an overview of your project.
 
