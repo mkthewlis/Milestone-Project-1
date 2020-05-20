@@ -1,48 +1,55 @@
-Work in progress! 
-
 # The Career Changers
 
 ## Code Institute: Milestone Project 1
 
---- 
 
-*---A boutique coaching service aimed at helping those who want to change their careers.*
+![The Career Coachers Interactive Design](https://github.com/mkthewlis/Milestone-Project-1/blob/master/assets/images/README%20image%20MS1.png)
 
-[The project can be viewed here.](https://mkthewlis.github.io/Milestone-Project-1/)
 
----
+*The Career Coachers* is a fictional career coaching service offering guidance and support to clients hoping to change their careers. The idea came to me as I myself began to transition into working in the world of tech. Having read through countless articles and listened to podcasts hosted by others in a similar situation, I thought it could be interesting to create a hypothetical service that would appeal to young workers aiming to guide their careers in a different direction.
 
-My idea for this project came as the result of going through a career changing process myself. Leading up to the beginning of my studies with the Code Institute, I had spent a lot of time reading and researching about the process. I had read through countless articles and listened to podcasts made by others who had successfully changed their careers.
-However, sifting through information online also led me to finding several career coaching services that seemed to offer advice and guidance to clients who knew they wanted to take their careers in a different direction. 
-Although interesting, I found that most of these services didn't seem accessible for younger workers, including millennials, who perhaps hadn't had as many years of working experience as other clients might. 
+This was the first of four Milestone Projects that I completed as a student of *The Code Institute*. 
+The main aim of this project was to make a responsive and static website using HTML5 and CSS3, with a minimum of three pages.  
 
-Given my experience of exploring the websites of different career coaching services, I thought that I would try to design a website that would appeal to a diffent market by offering a less formal approach. Consequently, my main aim was to make a website that was very easy to navigate, would not seem intimidating to young career changers and yet would still be credible as the fictional founders are career changers themselves.
+[This project can be viewed live here.](https://mkthewlis.github.io/Milestone-Project-1/)
+
 
 ## UX
 
 ---
- 
-My idea with 'The Career Changers' was to fill a gap in the market, by appealing to users who might feel confused by the conflicting sources on information online about the process of changing their career.
 
-With this in mind, I wanted to design a platform that prospective career changers would feel relieved to find; a coaching service that would guide them throughout the process.
-Having reached out to the company, the user would be matched with an individual career coach and would work
-closely with them from the first meeting to the final interview of a future job. In so doing, it would take away the user's stress and anxiety from being overwhelmed by other sources of information; instead, they would feel that they could rely on an expert with experience in their particular field.
+### Main aims
 
-To make The Career Changers service credible, I knew that this fictional organisation would have to come across as reliable and professional. I therefore wanted the design to be simple and streamlined, with a sutble colour scheme and all of the key information readily available.
-However, I also wanted the website to not come across as intimidating. To do this, I knew that I should start by finding a hero image that would draw the user in by seeming relatable. This idea also inspired me to include photos of the founders to add a friendly and 'human' element to the organisation. 
+#### With my project idea in mind, I began by outlining my main aims, as these would go on to shape my user stories.
 
-Before beginning to design the project, I worked with the following User Stories:
+- To fill a gap in the careers coaching market, by specifically appealing to users who might feel overwhelmed by the prospect of changing careers and would like to find a source of guidance throughout this process.  
+- To make *The Career Changers* service seem credible, by creating a design that was both streamlined and professional. 
+- To make it easy for users to quickly navigate their way to the 'Contact Us' page to potentially increase the client base for the fictional business owners. 
+- To create a design that would be fully responsive on all devices and screen sizes. 
 
-- I am a user who wants to change career. Despite having done my fair share of research online I was at a loss as to where to start. I remember thinking that it would be great to have some support along the way. Eventually I found this boutique coaching service and navigated my way through the website to schedule a call with them. I am now a client and will soon start applying for jobs in a different field. Success!
-- I am a user who works for a competing career counselling service. I wanted to quickly navigate my way through the website to find the price and package details of what was on offer. I found the information I needed on the third page.
-- I am a user who is still unconvinced about whether I might need support as I change my career. I wanted to get into contact with The Career Changers as I came across their profile on LinkedIn and am curious about their services. I found my way to the contact page and completed form. I am now waiting to hear back from them to schedule a call for more information.
+### User Stories
 
-I also knew that I wanted to make the website easy to navigate as the owners of The Career Changers would want the user to easily find their way to the contact button to increase sales. 
+#### The aims above helped me to consider different users and their specific needs.
 
-With the users defined, my initial design process was focused on testing colour combinations and finding an appropriate hero image. To do this, I set up my workspace on Figma and began exploring different design ideas.
-All colours from the project were ultimately taken from this original image, including the light blue (#dce3ed) and light brown (#7a7573) that are paired throughout the design project. I also found the two fonts that I would use throughout the project, as I thought they worked well together to come across as professional yet unintimidating: Open Sans and Nato Sans KR. 
+- I am a user who wants to change career path. I need to be convinced that this career counselling service can meet my needs and that they are reliable. I also want to easily navigate my way through the website before making the decision whether to contact this company or continue my search online.
 
-My workspace on Figma can be found [by following this link](https://www.figma.com/file/Hv9GYC33ydTGLuwIxydgRr/Code-Institute?node-id=0%3A1), with earlier versions of my project design shown underneath.
+- I am a user who works for a competing career counselling service. I want to quickly work my way through the website to find the price and package details of what is on offer.
+- I am a user who is still unconvinced about whether I might need support as I change my career. I want to get into contact with *The Career Changers* as I have come across their profile on LinkedIn and am curious about their services. I want to reach out to them and request more information about their services. 
+- I am a user who primarily uses an iPad Pro to browse websites. I want to have a good experience on this website and view all the features in an equally aesthetic way. 
+- I am one of the owners of *The Career Changers*. I want a website that will provide information about our services, attract potential clients by seeming welcoming and one that will make it easy for users to get in touch with us.
+
+### Design Process
+
+1. I began the design process by outlining the key features that I wanted my website to have and thought about what might be the most intuitive way to navigate through each page. This led me to decide on the four pages I would have on my website.
+
+2. The first major design decision was to keep the home page as clear and streamlined as possible, with a large hero image and a punchy title with a button straight away. I had a rough idea of what I was looking for (namely, someone who looked pensive at work) and when I came across [this image](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/) I knew that it could form the basis of the rest of my design.
+
+3. I started a workspace on [Figma](https://www.figma.com/file/Hv9GYC33ydTGLuwIxydgRr/Code-Institute?node-id=0%3A1) and began experimenting by making a wireframe. I tried using different colours, fonts and structures for my four pages. All colours for this project were ultimately taken from this original image, including the light blue (#dce3ed) and light brown (#7a7573) that are paired together throughout the design project. 
+I also found the two fonts that I would use consisteny, as I thought they worked well together to come across as professional and yet also unintimidating: Open Sans and Nato Sans KR. 
+
+4. I continued to make changes to my original design idea throughout the project. I designed the logo after I had started builing the website and added more content about the founders than initially intended. I also made a significant change to the structure of the 'About Us' page as I thought that would provide a better user experience.
+
+> Note: Throughout the design process, I kept referring back to my original 'Main Aims' and 'User Stories' to make sure that my project was developing as intended.
 
 
 ## Features
@@ -51,35 +58,43 @@ My workspace on Figma can be found [by following this link](https://www.figma.co
 
 ### Existing Features
 
-This project has four seperate pages for a user to navigate through, each found by clicking on the corresponding name on the menu. Across all pages, the manu bar remains consistent, with 'The Career Changers' logo on the left (which, when clicked, leads them back to Home) and the other pages aligned on the right side. The menu is fully interactive and responsive on smaller screens. Similarly, the footer remains consistent on each page with links to social media profiles there.
+This project has four seperate pages for a user to navigate through, each found by clicking on the corresponding name on the menu. 
 
-- *Home*: This is the first page that the user comes across. Here, they are met with an image of a man who looks as if he is thinking about changing his job, whilst looking up at the title and a 'Schedule call' button. Below the image, the user finds three quick reasons why they should use this boutique career coaching service. 
+#### Across all pages
 
+- A consistent menu bar with *The Career Changers* logo on the left (which leads a user back to 'Home') and a link to the other pages on the right.
+- The menu is collapsible and responsive on smaller screens. 
+- The footer is also consistent across all pages with links to social media profiles there.
 
+#### Home
 
-- *About Us*: The user meets the three founders of The Career Coachers at the top of the page. As they scroll down, they find a short history of the company and where the idea came from.
-- *Our Services*: The top of this page features a statement that reassures the user that this service will help guide them throughout their career changing journey. It then explans on the three reasons to use the company below and then leads to a section with an outline of the features. 
-- *Contact Us*: This page is designed to be welcoming, yet also simple, as it only features a contact form to encourage the user to get in touch. 
+- The main title across the hero image slides into view from the right.
+- Below this is a 'Schedule call' button brings the user directly to the 'Contact Us' page
+- Three quick reasons why a user should use this service with icons to represent each one
 
-### Existing interactive features:
+#### About Us
 
-- *(All pages) Menu bar*: Allows all users to intuitively navigate through the website deisgn, gradually learning more information before reaching the 'Contact Us' page to schedule a call.
+- Three interactive images of the founders that transition into full colour when hovered over
+- A short overview of the company, including how and why it was founded
 
+#### Our Services
 
+- More details about why a client should use this particular service
+- A bulletpoint list of what is included in the price
+- Another 'Schedule Call' button to lead the user directly to the 'Contact Us' page
 
-- *(All pages) Social media icons on the Footer*: Each icon links the user to the corresponding social media page so they can interact with the company and find more information. 
-- *(Home) 'Schedule Call' button*: Allows users an alternative way to navigate straight to the 'Contact Us' page. This has two functions: it makes the process easier for the user and could increase revenue for the business owners as it allows for a quicker commitment.
-- *(Home) Main title*: The title slides in from the left as the user enters the page, adding an interactive element on first sight, immitating how a thought might slide into our minds.
-- *(About Us) Three founders images*: Upon hover, the images change from greyscale to full colour as the names underline too. This adds to making the founders approachable to the user as they appear 'warmer' and in focus when the user hovers over them.
-- *(Our Services) 'Schedule Call' button*: Another schedule call button is featured below the list of features included in the standard package. Again, this allows the user to navigate straight to the contact form if they feel ready to commit.
-- *(Contact Us) Contact form*: This is the final stage for the user to get in touch. All input points in the form are required, meaning that the business owner is guaranteed to get the information they need from the user to get in touch with more information about the services. 
+#### Contact Us
+
+- Contains a form that the user fills in; all fields have to be completed to submit the form
+- On submission, a modal message pops up confirming their submission
+
 
 ### Features Left to Implement
 - I considered adding a section with reviews from previous clients. This could be something the business owner might add in the future.
 
+- With technology that extends beyond the scope of this project, it could be interesting to add a members section to the website where current and previous clients could log in to share ideas, chat and offer each other support.
 
-
-- With technology that extends beyond the scope of this project, it could be interesting to add a members section to the website where current and previous clients could log in to share ideas, chat and offer each other support. Additionally, it could include a feature to get in touch with the support team there too.
+- Another additional feature that goes beyond the scole of my first project would be to include a feature to get in touch with the support team directly by logging in to the members section.
 
 ## Technologies Used
 
@@ -104,16 +119,19 @@ To achieve this, I used the following technologies:
     * This free interactive Fonticon Generator allowed me to create a fonticon with a Font Awesome icon and style it with the colours from my colour scheme.
 - [W3C Markup Validation Service](https://validator.w3.org/) 
     * This was a great tool throughout the project to test my HTML and CSS code.
+    - [W3C Schools](https://www.w3schools.com/)
+    * I've refered to WSC Schools throughout the project, especially when designing the modal for my contact form, as described [here](https://www.w3schools.com/bootstrap/bootstrap_modal.asp)
 - [Stack Overflow](https://stackoverflow.com/)
     * Although it isn't a technology, I found a lot of guidance on Stack Overflow and used [this page](https://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html-css*/) to help me make images interactive on hover.
 
+## Testing
 
 
 ---
 ---
 ---
 
-
+WORK IN PROGRESS
 
 Recognition so far to:
 - Bootstrap Framework
@@ -123,9 +141,10 @@ Recognition so far to:
 - Pexel image library
 - FontAwesome icons
 
+WORK IN PROGRESS
 
 
-# Template below:
+# Intro
 
 
 One or two paragraphs providing an overview of your project.
@@ -165,6 +184,27 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 
 ## Testing
+
+### Validating the HTML and CSS code
+
+### Browser testing
+
+I manually tested the website on the following web browsers:
+- Google Chrome 
+- Mozilla Firefox 
+- Apple Safari
+
+Doing so lead to the follwing results:
+- Chrome: the worked well on all screens. (Note: I used Google Chrome when building my project)
+- Firefox: the 'Contact Us' button had a different border, with a white outline instead of blue colour from my theme 
+- Safari: the horizontal divider on the 'Contact Us' page was not aligned correctly 
+
+
+
+### Testing responsiveness
+
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
