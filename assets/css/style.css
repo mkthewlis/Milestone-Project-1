@@ -277,6 +277,13 @@ footer p {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .menu-bar .logo-style {
+    padding-left: 5px;
+    font-size: 30px;
+  }
+}
+
 /* End of media query section*/
 
 /*
@@ -287,7 +294,6 @@ footer p {
 #logo-hover:hover {
   color: #7a94bd;
 }
-
 
 /* Design help courtesy of my classmate Marcel Balint*/
 #menu-hover:hover a:not(:hover) {
@@ -407,7 +413,7 @@ footer p {
   color: #dce3ed;
 }
 
-/* Main title interaction*/ 
+/* Main title interaction*/
 /* Design help courtesy of my classmate Marcel Balint*/
 .statement-section h1 {
   animation-name: moveleft;
@@ -583,12 +589,6 @@ footer p {
 /* Media query to make design responsive on smaller screens */
 
 @media screen and (max-width: 540px) {
-  #staircase-title-sm {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-  }
-
   .founders-section-bg {
     padding-right: 0px;
     padding-left: 0px;
@@ -608,7 +608,21 @@ footer p {
   .founders-photos div div {
     filter: none;
   }
+
+  .founders-title {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
+
+/*Specific media query for iPad dimensions*/
+@media screen and (max-width: 770px) and (min-width: 760px) {
+  .founders-section-bg {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
 /* End of media query section*/
 
 /*Photos individually sized to crop them to the same format*/
@@ -703,6 +717,12 @@ https://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html
 /* Media query to make design responsive on smaller screens */
 
 @media screen and (max-width: 540px) {
+  #staircase-title-sm {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
   .staircase-title {
     margin: 30px 10px 30px 10px;
     padding-bottom: 0px;
@@ -739,8 +759,8 @@ https://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html
 /*-------------------------------------------------------- Services title section*/
 
 .services-photo {
-background: url("../images/woman-in-white-blazer-holding-tablet-computer-789822.jpg");
-opacity: 0.9;
+  background: url("../images/woman-in-white-blazer-holding-tablet-computer-789822.jpg");
+  opacity: 0.9;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -751,26 +771,24 @@ opacity: 0.9;
 /* Media query to make design responsive on smaller screens */
 
 @media screen and (max-width: 720px) {
-    .services-photo {
-        min-height: 300px;
-    }
-.services-title-md{
+  .services-photo {
+    min-height: 300px;
+  }
+  .services-title-md {
     padding-top: 0px;
     margin-top: 0px;
+  }
 }
-
-    }
 
 @media screen and (max-width: 992px) {
   .services-md {
     min-height: 300px;
   }
 
-.services-title-md{
+  .services-title-md {
     padding-top: 0px;
     margin-top: 0px;
-}
-
+  }
 }
 /* End of media query section*/
 
@@ -789,7 +807,7 @@ opacity: 0.9;
 
 .services-title h3 {
   padding-top: 30px;
-    margin-left: 15px;
+  margin-left: 15px;
   margin-right: 15px;
 }
 
@@ -809,6 +827,7 @@ opacity: 0.9;
 
 .package-photo {
   background: url("../images/desk_tablet.jpg");
+  opacity: 0.9;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -910,6 +929,13 @@ https://hollypryce.com/font-awesome-bullet-points/ */
     line-height: 50px;
   }
 }
+
+/*Specific media query for iPad Pro dimensions*/
+@media screen and (max-width: 1025px) {
+  .package-section .package-fee {
+    margin-left: 10px;
+  }
+}
 /* End of media query section*/
 
 /*------------------------------------------------------------------------------### contact.html ### */
@@ -977,9 +1003,65 @@ form .sign-up-btn {
   margin-left: 0px;
 }
 
+/*Modal styling*/
+.modal-style {
+ background-color: rgba(255, 255, 255);
+border: 1px solid #dce3ed;
+    border-radius: .3rem;
+    outline: 0;
+    text-align: center;
+}
+
+.modal-dialog {
+    margin-top: 250px;
+}
+
+.modal-style p,
+.modal-style button {
+  font-family: "Open Sans", sans-serif;
+   color: #433e3a;
+  }
+
+.modal-style p {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.modal-header {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-bottom: 0;
+}
+
+.modal-footer {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.modal-footer .btn {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: #DCE3ED;
+    border-radius: 30px;
+}
+
+.close {
+    color:#433e3a;
+}
+
+
+/*Sign-up button hover function*/
+
+.sign-up-btn-hover:hover {
+  background-color: #433e3a;
+  border-color: #433e3a;
+  color: #dce3ed;
+}
+
 /* Media query to make design responsive on smaller screens */
 
 @media screen and (max-width: 540px) {
+    
   .contact-photo {
     background-position-x: 53%;
   }
@@ -1051,12 +1133,41 @@ form .sign-up-btn {
     margin-right: 0px;
   }
 }
-/* End of media query section*/
 
-/*Sign-up button hover function*/
-
-.sign-up-btn-hover:hover {
-  background-color: #433e3a;
-  border-color: #433e3a;
-  color: #dce3ed;
+/*Specific media queries on certain screens*/
+@media screen and (max-width: 1300px) and (min-width: 1000px) {
+  .form-bg {
+    background-color: #d8d5d8;
+    opacity: 90%;
+  }
+  .contact-photo {
+    height: 100vh;
+  }
 }
+
+@media screen and (max-width: 1300px) and (min-width: 770px) {
+  .sign-up-text h3 {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 770px) and (min-width: 760px) {
+  .form-bg {
+    background-color: #d8d5d8;
+    opacity: 90%;
+  }
+  .sign-up-text {
+    padding-top: 0px;
+    margin-top: 50px;
+  }
+
+  .sign-up-text h3 {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+/* End of media query section*/

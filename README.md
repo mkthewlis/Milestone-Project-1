@@ -4,6 +4,8 @@ Work in progress!
 
 ## Code Institute: Milestone Project 1
 
+--- 
+
 *---A boutique coaching service aimed at helping those who want to change their careers.*
 
 [The project can be viewed here.](https://mkthewlis.github.io/Milestone-Project-1/)

@@ -113,11 +113,36 @@
                   value="Submit"
                   class="sign-up-btn sign-up-btn-hover"
                   id="btn-sm-screen"
+                  data-toggle="modal"
+                  data-target="#formModal"
                 />
               </form>
 
-              <!--
-              <a class="btn btn-primary btn-lg sign-up-btn sign-up-btn-hover" id="btn-sm-screen" role="button">Submit</a> -->
+              <!-- Form modal structure courtesy of W3Schools on following page with own styling: https://www.w3schools.com/bootstrap/bootstrap_modal.asp -->
+              <div id="formModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <!-- Modal content-->
+                  <div class="modal-content modal-style">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p><strong>Thanks for your details!</strong><br> We'll get in touch with you soon.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-default"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
