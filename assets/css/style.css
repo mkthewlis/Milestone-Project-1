@@ -279,11 +279,18 @@ footer p {
 
 /* End of media query section*/
 
+/*
 #menu-hover a:hover {
   color: #7a94bd;
 }
-
+*/
 #logo-hover:hover {
+  color: #7a94bd;
+}
+
+
+/* Design help courtesy of my classmate Marcel Balint*/
+#menu-hover:hover a:not(:hover) {
   color: #7a94bd;
 }
 
@@ -399,6 +406,64 @@ footer p {
   border-color: #433e3a;
   color: #dce3ed;
 }
+
+/* Main title interaction*/ 
+/* Design help courtesy of my classmate Marcel Balint*/
+.statement-section h1 {
+  animation-name: moveleft;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+}
+
+/*
+.statement-section p {
+  animation: moveright 1s ease-out;
+}
+
+
+@keyframes moveright {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+*/
+
+@keyframes moveleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(0.4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/*
+  .animated {
+  animation: movebutton 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+@keyframes movebutton {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}*/
 
 /*-------------------------------------------------------- Core features section*/
 
