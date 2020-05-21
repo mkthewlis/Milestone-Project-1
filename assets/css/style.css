@@ -1012,9 +1012,6 @@ border: 1px solid #dce3ed;
     text-align: center;
 }
 
-.modal-dialog {
-    margin-top: 250px;
-}
 
 .modal-style p,
 .modal-style button {
@@ -1029,7 +1026,7 @@ border: 1px solid #dce3ed;
 
 .modal-header {
     padding-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 10px;
     border-bottom: 0;
 }
 
