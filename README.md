@@ -9,7 +9,7 @@
 *The Career Coachers* is a fictional career coaching service that offers guidance and support to clients hoping to change their careers. 
 The idea for this project came to me as I was going through this transition myself and thought it could be interesting to create a service
 for others in the same situation. Instead of only relying on articles, podcasts and opinion pieces, I liked the idea of building a
-coaching service that would help guide young clients throughout their transition.
+coaching service that would help guide young clients throughout their transition by pairing them to a coach with experience in their specific field.
 
 This was the first of four Milestone Projects that made up the Full Stack Web Development Program at *The Code Institute*. 
 The main requirements were to make a responsive and static website with a minimum of three pages using HTML5 and CSS3.
@@ -31,7 +31,7 @@ The main requirements were to make a responsive and static website with a minimu
 
 ### User Stories
 
-1. I am a user who wants to change career path. I need to be convinced that this career counselling service can meet my needs and that they are reliable. I also want to easily navigate my way through the website before making the decision whether to contact this company or to continue my search online.
+1. I am a user who wants to change career path at an early stage in my career. I need to be convinced that this career counselling service can meet my needs and that they are reliable. I also want to easily navigate my way through the website before making the decision whether to contact this company or to continue my search online.
 
 2. I am a user who works for a competing career counselling service. I want to know what this company offers, including their price and package details.
 
@@ -43,25 +43,29 @@ The main requirements were to make a responsive and static website with a minimu
 
 ### Design Process
 
-![My workspace on Figma](https://github.com/mkthewlis/Milestone-Project-1/blob/master/assets/images/figma_screenshot.png)
-
 1. I began the design process by outlining the key features that I wanted my website to have and thought about what might be the most intuitive way to navigate through each page. This led me to decide on the four pages I would have on my website: 'Home', 'About Us', 'Our Services' and 'Contact Us'.
 
 2. The first major design decision was to keep the home page as clear and streamlined as possible, with a large hero image and a gripping title that would engage the user straight away. I had a rough idea of what I was looking for (namely, someone who looked pensive at work) and when I came across [this image](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/) I knew that it could form the basis of the rest of my design.
 
 3. I started a workspace on [Figma](https://www.figma.com/file/Hv9GYC33ydTGLuwIxydgRr/Code-Institute?node-id=0%3A1) and began experimenting by making a wireframe. I tried using different colours, fonts and structures for my four pages. All of the colours for this project were ultimately taken from this original image, including the light blue (#dce3ed) and light brown (#7a7573) that are paired together throughout the design project. 
-I also found the two fonts that I would use consisteny, as I thought they worked well together to come across as professional and yet also unintimidating: Open Sans and Nato Sans KR. 
+I also found the two fonts that I would use consisteny, as I thought they worked well together to come across as credible and yet also unintimidating for an audience that includes young professionals: Open Sans and Nato Sans KR. 
 
-4. I continued to make changes to my original design idea throughout the project. I designed the logo after I had started builing the website and added more content about the founders than initially intended. I also made a significant change to the structure of the 'About Us' page as I thought that would provide a better user experience.
+4. I continued to make changes to my original design idea throughout the project. I designed the logo after I had started builing the website and added more content about the founders than initially intended. I also made a significant change to the structure of the 'About Us' page as I thought that would provide a better user experience (this can be seen by observing my wireframe below with the design of the finished project).
 
 > Note: Throughout the design process, I kept referring back to my original 'Main Aims' and 'User Stories' to make sure that my project was developing as intended.
 
+### Wireframing my project on Figma
+
+![My workspace on Figma](https://github.com/mkthewlis/Milestone-Project-1/blob/master/assets/images/figma_screenshot.png)
+
+
+[The workspace can be viewed on Figma with this link.](https://www.figma.com/file/Hv9GYC33ydTGLuwIxydgRr/Code-Institute?node-id=0%3A1)
 
 ## Features
 
 ### Existing Features
 
-This project has four seperate pages, each found by clicking on the corresponding name on the menu. 
+This project has four separate pages, each found by clicking on the corresponding name on the menu. 
 
 #### Consistent features across all pages
 
@@ -118,7 +122,7 @@ This project has four seperate pages, each found by clicking on the correspondin
 - [W3C Markup Validation Service](https://validator.w3.org/) 
     * This was a great tool throughout the project to test my HTML and CSS code.
 - [W3C Schools](https://www.w3schools.com/)
-    * I've refered to WSC Schools throughout the project, especially when designing the modal for my contact form, as described [here.](https://www.w3schools.com/bootstrap/bootstrap_modal.asp)
+    * I've refered to WSC Schools several times whilst building my project, especially when designing the modal for my contact form, as described [here.](https://www.w3schools.com/bootstrap/bootstrap_modal.asp)
 - [Stack Overflow](https://stackoverflow.com/)
     * Although it isn't a technology, I found a lot of guidance on Stack Overflow and used [this page](https://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html-css*/) to help me make images interactive on hover.
 
@@ -158,147 +162,78 @@ I manually tested the live project by doing the following:
 - Using Google Developer Tools to view the project on devices with different screen sizes.
 - Asking for feedback from friends and family who opened and interacted with the project on their devices.
 
-> NOTE: As my project was built with HTML and CSS, the modal that confirms a user has submitted their details appears even when the form is not completed. With the technology to do so, I would try to implement a function to prevent this from happening.
+### Issues found
+
+As my project was built with HTML and CSS, the modal that confirms that a user has submitted their details on the 'Contact Us' page appears even when the form is not completed. I have made sure that the input fields are 'required' by the user, which leads to a message prompting the user to add these details to proceed.
+However, with the limited technology that I had at this stage, I did not have the JavaScript knowledge required to prevent the modal from appearing. 
+
+With later projects, I would try to implement a function to prevent this from happening in a similar situation.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+### Deploying my project 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+I created my project on GitHub and used GitPod's development environment to write my code. 
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+To make my project viewable to others, I deployed my project to GitHub Pages with the following process:
 
+1. I opened the 'Settings' section of my project repository in GitHub.
+2. From there, I scrolled to the 'GitHub Pages' section.
+3. Here I selected 'master branch' as my Source.
+3. This deployed my project on GitHub Pages and allowed me to share the live website with others. 
+
+Use the following link to view my live project: [The Career Coachers](https://mkthewlis.github.io/Milestone-Project-1/)
+
+More information about this process can be found on the following link: [Configuring a publishing source for your GitHub Pages site](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+### Cloning my project
+
+If you would like to work on my project further you can clone it to your local machine using the following steps:
+
+1. Scroll to the top of my repository and click on the "clone or download button"
+2. Decide whether you want to clone the project using HTTPS or an SSH key and do the following:
+    * HTTPS: click on the checklist icon to the right of the URL
+    * SSH key: first click on 'Use SSH' then click on the same icon as above
+3. Open the 'Terminal'
+4. Change the current working directory to the location where you want the cloned directory
+5. Type 'git clone', and then paste the URL you copied earlier.
+6. Press 'Enter' to create your local clone.
+    
+You can find both the source of this information and learn more about the process on the following link: [Cloning a Repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+The content of this website is entirely fictional and written by myself. The images are from Pexels and are referenced below. 
 
 ### Media
-- The photos used in this site were obtained from ...
+
+The images were all taken from Pexels with the following links:
+
+- *Home page* 
+    * [Hero image](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+
+- *About Us* 
+    * [Founder 1 - 'Andy'](https://www.pexels.com/photo/woman-wearing-black-eyeglasses-1239291/)
+    * [Founder 2 - 'Malin'](https://www.pexels.com/photo/women-s-white-and-black-button-up-collared-shirt-774909/)
+    * [Founder 3 - 'Sid'](https://www.pexels.com/photo/portrait-photo-of-smiling-man-with-his-arms-crossed-standing-in-front-of-white-wall-2379004/)
+    * [Staircase image](https://www.pexels.com/photo/gray-and-white-concrete-staircase-3707673/)
+
+- *Our Services*
+    * [Image of a satisfied 'client'](https://www.pexels.com/photo/woman-in-white-blazer-holding-tablet-computer-789822/)
+    * [Image of desk area](https://www.pexels.com/photo/white-tablet-and-cup-of-coffee-6337/)
+
+- *Contact Us*
+    * [Office environment](https://www.pexels.com/photo/blur-bottle-bright-building-273238/)
+
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+Thank you to the following people who helped with support, inspiration and guidance at different stages in the project:
 
-
-
-WORK IN PROGRESS
-
-Recognition so far to:
-- Bootstrap Framework
---- Navbar
---- Grid structure
-- Google Fonts
-- Pexel image library
-- FontAwesome icons
-
-WORK IN PROGRESS
-
-
-# Intro
-
-
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
- 
-## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
-## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
-
-## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
-
-## Testing
-
-### Validating the HTML and CSS code
-
-### Browser testing
-
-I manually tested the website on the following web browsers:
-- Google Chrome 
-- Mozilla Firefox 
-- Apple Safari
-
-Doing so lead to the follwing results:
-- Chrome: the worked well on all screens. (Note: I used Google Chrome when building my project)
-- Firefox: the 'Contact Us' button had a different border, with a white outline instead of blue colour from my theme 
-- Safari: the horizontal divider on the 'Contact Us' page was not aligned correctly 
-
-
-
-### Testing responsiveness
-
-
-
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-
-## Credits
-
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
-### Media
-- The photos used in this site were obtained from ...
-
-### Acknowledgements
-
-- I received inspiration for this project from X
+- My mentor Seun Owonikoko
+- *Code Institute* mentor Simen Daehlin
+- My classmate Marcel Balint 
+- The supportive *Code Institute* community on Slack
+- My family and friends for their patience and honest critique throughout
