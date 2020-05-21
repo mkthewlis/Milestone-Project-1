@@ -3,10 +3,10 @@
 ## Code Institute: Milestone Project 1
 
 
-![The Career Coachers Interactive Design](https://github.com/mkthewlis/Milestone-Project-1/blob/master/assets/images/README%20image%20MS1.png)
+![The Career Changers Interactive Design](https://github.com/mkthewlis/Milestone-Project-1/blob/master/assets/images/README%20image%20MS1.png)
 
 
-*The Career Coachers* is a fictional career coaching service that offers guidance and support to clients hoping to change their careers. 
+*The Career Changers* is a fictional career coaching service that offers guidance and support to clients hoping to change their careers. 
 The idea for this project came to me as I was going through this transition myself and thought it could be interesting to create a service
 for others in the same situation. Instead of only relying on articles, podcasts and opinion pieces, I liked the idea of building a
 coaching service that would help guide young clients throughout their transition by pairing them to a coach with experience in their specific field.
