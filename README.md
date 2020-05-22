@@ -56,10 +56,16 @@ I also found the two fonts that I would use consisteny, as I thought they worked
 
 ### Wireframing my project on Figma
 
+Design for desktop devices:
 ![My workspace on Figma](https://github.com/mkthewlis/Milestone-Project-1/blob/master/assets/images/figma_screenshot.png)
 
+Design for mobile devices:
+![My responsive design for mobile devices](https://github.com/mkthewlis/Milestone-Project-1/blob/master/assets/images/figma_mobile.png)
 
-[The workspace can be viewed on Figma with this link.](https://www.figma.com/file/Hv9GYC33ydTGLuwIxydgRr/Code-Institute?node-id=0%3A1)
+Design for tablet devices:
+![My responsive design for tablet devices](https://github.com/mkthewlis/Milestone-Project-1/blob/master/assets/images/figma_tablet.png)
+
+[The entire workspace can be viewed on Figma with this link.](https://www.figma.com/file/Hv9GYC33ydTGLuwIxydgRr/Code-Institute?node-id=0%3A1)
 
 ## Features
 
@@ -115,6 +121,8 @@ This project has four separate pages, each found by clicking on the correspondin
     * I relied on five free FontAwesome icons for my design project.
 - [Pexels](https://www.pexels.com/) 
     * This was the source of all of the images in my project.
+- [TinyPNG](https://tinypng.com/) 
+    * I used TinyPNG to compress my image files to try to reduce the loading time for each page. 
 - [Google Fonts](https://fonts.google.com/)
     * I used one Google Font to create my logo and two more to style the content of the website.
 - [Gauger Fonticon Generator](https://gauger.io/fonticon/) 
