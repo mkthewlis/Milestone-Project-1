@@ -53,7 +53,7 @@
                             <h3>Send us your details and we’ll get in touch to book a free consultation call.</h3>
                         </div>
         <!--Form structure from Bootstrap-->
-                        <form>
+                        <form onsubmit="alert('Thanks for your details! We will get in touch with you soon')">
                             <div class="form-group form-style">
                                 <input type="text" name="first-name" id="firstname" class="form-control form-bg" placeholder="First Name" required/>
                                 <input type="text" name="first-name" id="lastname" class="form-control form-bg" placeholder="Last Name" required/>
@@ -61,25 +61,6 @@
                             </div>
                             <input type="submit" value="Submit" class="sign-up-btn sign-up-btn-hover" id="btn-sm-screen" data-toggle="modal" data-target="#formModal" />
                         </form>
-        <!-- Form modal structure courtesy of W3Schools on following page with own styling: https://www.w3schools.com/bootstrap/bootstrap_modal.asp -->
-                        <div id="formModal" class="modal fade" role="dialog">
-                            <div class="modal-dialog modal-dialog-centered">
-        <!-- Modal content-->
-                            <div class="modal-content modal-style">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"> &times;</button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><strong>Thanks for your details!</strong>
-                                    <br/>
-                                    We'll get in touch with you soon.</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

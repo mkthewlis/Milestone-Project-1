@@ -164,8 +164,10 @@ I manually tested the live project by doing the following:
 
 ### Issues found
 
-As my project was built with HTML and CSS, the modal that confirms that a user has submitted their details on the 'Contact Us' page appears even when the form is not completed. I have made sure that the input fields are 'required' by the user, which leads to a message prompting the user to add these details to proceed.
-However, with the limited technology that I had at this stage, I did not have the JavaScript knowledge required to prevent the modal from appearing. 
+Initially I had planned on using a modal message to thank the user for submitting their details on the 'Contact Us' page. I implemented this and styled it to suit the overall design of my project (the code for that can still be seen in earlier versions from 21/05/2020, found in my commit history.)
+However, I noticed that this was not working correctly as the modal would show the success message even when a user had not fully completed the form.
+
+As I did not yet have the knowledge to correct this with JavaScript (the project was built with HTML5 and CSS3), I changed my design to include a short message on submit instead. Courtesy for help with this goes to my fellow students from the *Code Institute* Slack community.
 
 With later projects, I would try to implement a function to prevent this from happening in a similar situation.
 

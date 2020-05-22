@@ -972,49 +972,6 @@ form .sign-up-btn {
   margin-left: 0px;
 }
 
-/*Modal styling*/
-
-.modal-style {
-  background-color: rgba(255, 255, 255);
-  border: 1px solid #dce3ed;
-  border-radius: 0.3rem;
-  outline: 0;
-  text-align: center;
-}
-
-.modal-style p,
-.modal-style button {
-  font-family: "Open Sans", sans-serif;
-  color: #433e3a;
-}
-
-.modal-style p {
-  font-size: 20px;
-  margin-bottom: 0px;
-}
-
-.modal-header {
-  padding-bottom: 0px;
-  padding-top: 10px;
-  border-bottom: 0;
-}
-
-.modal-footer {
-  border-top: 0;
-  padding-top: 0;
-}
-
-.modal-footer .btn {
-  padding-bottom: 0px;
-  padding-top: 0px;
-  background-color: #dce3ed;
-  border-radius: 30px;
-}
-
-.close {
-  color: #433e3a;
-}
-
 /*Sign-up button hover function*/
 
 .sign-up-btn-hover:hover {
