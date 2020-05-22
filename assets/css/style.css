@@ -915,7 +915,7 @@ https://hollypryce.com/font-awesome-bullet-points/ */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 950px;
+  min-height: 100vh;
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -942,7 +942,7 @@ https://hollypryce.com/font-awesome-bullet-points/ */
 }
 
 .contact-divider {
-  margin-right: 550px;
+  margin-right: 0 auto;
   width: 420px;
 }
 
@@ -1132,6 +1132,14 @@ form .sign-up-btn {
   .sign-up-text h3 {
     margin-left: 80px;
     margin-right: 80px;
+  }
+}
+
+/*Specific media query added to keep the divider in the right position on XL screens*/
+@media screen and (min-width: 1300px) {
+    .contact-divider {
+    width: 500px;
+    margin-left: 0px;
   }
 }
 
