@@ -712,6 +712,13 @@ https://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html
   }
 }
 
+/*Specific media query for iPad dimensions*/
+@media screen and (max-width: 770px) and (min-width: 760px) {
+    .staircase-info {
+        padding: 50px;
+    }
+}
+
 /* End of media query section*/
 
 /*------------------------------------------------------------------------------### services.html ### */
